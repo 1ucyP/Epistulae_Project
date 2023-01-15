@@ -8,7 +8,7 @@
 <titleStmt>
 <title>Descriptive title of text</title>
 </titleStmt>
-<publicationStmt> <!-- This is where the publication record lives, also where the TM number, APIS id number, etc is --> 
+<publicationStmt> <!-- This is where the publication record lives, also where the TM number, APIS id number, etc is --> <!-- testing -->
 <authority></authority>
 <idno></idno>
 </publicationStmt>
