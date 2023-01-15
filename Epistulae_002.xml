@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Authentication of a Subscript / Confirmation of Delivery of a Petition / 
+    Petition of Skaptopareni / Quoted Proceedings of a Hearing before the Provincial Governor 
+    / Subscriptio of Gordian III</title>
+</titleStmt>
+<publicationStmt>
+<authority>Trismegistos</authority>
+<idno type="TM">197757 </idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+    <repository>Epistulae Project</repository>
+   <idno type="URI">002</idno>
+</msIdentifier>
+<msContents>
+   <summary>Inscription comprises several texts: authentication of an imperial subscript,
+       petition, partial proceedings of a hearing before a provincial governor, and imperial 
+       subscript. Aurelius Pyrrhus acted as a representative for his community at Scaptopara,
+       which had been burdened by troops boarding and quartering, at a hearing before the governor 
+       of Thrace. The inscription was probably commissioned by Aurelius Pyrrhus to celebrate his 
+       efforts, though their efficacy is uncertain.</summary>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support>
+<material>stone</material>
+<objectType>letter</objectType>
+<objectType>rescript</objectType>
+<dimensions unit="cm">
+   <height scope="range">100</height>
+   <width scope="range">70 </width>
+</dimensions>
+</support>
+</supportDesc>
+<layoutDesc>
+<layout>
+   <ab type="lines"> 168</ab>
+</layout>
+</layoutDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origPlace type="country">Bulgaria</origPlace>
+   <origPlace type="settlement">Skaptopara</origPlace>
+   <origPlace type="house">Bathhouse</origPlace>
+<origDate type="rescript">August-December 238 CE</origDate>
+</origin>
+<provenance type="found">Skaptopara, Bulgaria, a bathhouse</provenance>
+<provenance type="observed">Original lost. Partial squeeze held at the Corpus Inscriptionum Latinarum,
+    Berlin-Brandenburgische Akademie der Wissenschaften, Berlin</provenance>
+</history>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+   <profileDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Greek</language>
+<language ident="la">latin</language>
+</langUsage>
+<textClass>
+   <keywords>
+      <term>Subscript</term> 
+      <term>petition </term>
+      <term>court proceedings </term>
+      <term>soldiers</term>
+      <term>document authentication</term>
+      <term>quartering</term>
+      <term>requisitioning</term>
+      <term>legal</term>
+      <term>representative</term>
+      <term>quoted document [?]</term>
+   </keywords>
+</textClass>
+</profileDesc>
+   <revisionDesc>
+      <change who="SC" when="2022-11-07">working version of text created in Microsoft Word</change>
+      <change who="LSP" when="2022-11-07">File created</change>
+   </revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<title>Bona Fortuna</title>
+ 	<supplied reason="omitted">F</supplied>ulvio Pio et <supplied reason="omitted">P</supplied>o<supplied reason="omitted">n</supplied>tio Proculo <expan><abbr>cons</abbr><ex>ulibus</ex></expan> XVII <expan><abbr>Kal</abbr><ex>endis</ex></expan> <expan><abbr>Ian</abbr><ex>uariis</ex></expan> descriptum <supplied reason="omitted">e</supplied>t
+ 	reco<supplied reason="omitted">g</supplied>nitum factum <supplied reason="omitted">e</supplied>x <supplied reason="omitted">l</supplied>ibro <supplied reason="omitted">li</supplied>bellorum rescript<supplied reason="omitted">o</supplied>rum a do-
+ 	mino <expan><abbr>n</abbr><ex>ostro</ex></expan> <expan><abbr>Imp</abbr><ex>erator</ex></expan> Ca<supplied reason="omitted">e</supplied><expan><abbr>s</abbr><ex>are</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> Antonio Gordiano Pio Felice <expan><abbr>Aug</abbr><ex>usto</ex></expan> <supplied reason="omitted">e</supplied>t propo-
+5	<supplied reason="omitted">s</supplied>it<supplied reason="omitted">o</supplied>rum <supplied reason="omitted">R</supplied>oma<supplied reason="omitted">e</supplied> in portico <supplied reason="omitted">th</supplied>ermarum Tr<supplied reason="omitted">a</supplied>ianar<supplied reason="omitted">u</supplied>m in ve<supplied reason="omitted">r</supplied>ba <expan><abbr><supplied reason="omitted">q</supplied></abbr><ex>uae</ex></expan> <expan><abbr>i</abbr><ex>nfra</ex></expan> <expan><abbr>s</abbr><ex>cripta</ex></expan> <expan><abbr>s</abbr><ex>unt</ex></expan>.
+II	<expan><abbr>dat</abbr><ex>um</ex></expan> p<supplied reason="omitted">e</supplied>r <expan><abbr>Aur</abbr><ex>elium</ex></expan> Purrum <expan><abbr>mil</abbr><ex>item</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> X <expan><abbr><supplied reason="omitted">pr</supplied></abbr><ex>aetoriae</ex></expan> <expan><abbr><supplied reason="omitted">p</supplied></abbr><ex>iae</ex></expan> <expan><abbr><supplied reason="omitted">f</supplied></abbr><ex>idelis</ex></expan> <supplied reason="omitted">G</supplied>ordiana<supplied reason="omitted">e</supplied> <expan><abbr><supplied reason="omitted">c</supplied></abbr><ex>enturiae</ex></expan> Proculi
+ 	con<supplied reason="omitted">vi</supplied>canu<supplied reason="omitted">m</supplied> et conp{p}ossess<supplied reason="omitted">o</supplied>rem
+III	Αὐτοκράτορι Καίσαρι <expan><abbr>Μ</abbr><ex>άρκῳ</ex></expan> Ἀντωνίῳ
+ 	Γορδιανῷ Εὐσεβεῖ Εὐτυχεῖ <expan><abbr>Σεβ</abbr><ex>αστῷ</ex></expan> δέησις
+10	παρὰ κωμητῶν Σκαπτοπαρηνων τῶν καὶ
+ 	Γρησειτων· ἐν τοῖς εὐτυχεστάτοις καὶ
+ 	αἰωνίοις σου καιροῖς κατοικεῖσθαι καὶ
+ 	βελτιοῦσθαι τὰς κώμας ἤπερ ἀναστά-
+ 	τους γίγνεσθαι τοὺς ἐνοικοῦντας πολ-
+15	<expan><abbr>λάκ</abbr><ex>ις</ex></expan> ἀντέγραψας· ἔστιν γ<supplied reason="omitted">ὰρ</supplied> καὶ ἐπὶ τῇ τῶν
+ 	ἀνθρώπων σωτηρίᾳ τὸ τοιοῦτο καὶ ἐπὶ
+ 	τοῦ ἱερωτάτου σου ταμείου ὠφελείᾳ·
+ 	ὅπερ καὶ αὐτοὶ ἔννομον ἱκεσίαν
+ 	τῇ θειότητί σου προσκομί<supplied reason="omitted">ζ</supplied>ομεν εὐ-
+20	χόμενοι ἱλέως ἐπινεῦσαι ἡμεῖν
+ 	δεομένοις τὸν τρόπον τοῦτον· οἰκοῦ-
+ 	μεν καὶ κεκτήμεθα ἐν τῇ προγεγραμ-
+ 	μένῃ κώμῃ οὔσῃ εὐεπεράστῳ διὰ τὸ
+ 	ἔχειν ὑδάτων θερμῶν χρῆσιν καὶ κεῖ-
+25	σθαι μέσον δύο στρατοπέδων τῶν ὄν-
+ 	των ἐν τῇ σῇ Θρᾴκῃ, καὶ ἐφ’ οὗ μὲν τὸ
+ 	πάλλαι οἱ κατοικοῦντες ἀόχλητοι
+ 	καὶ ἀδειάσειστοι ἔμενον, ἀνενδεῶς̣
+ 	τούς τε φόρους καὶ τὰ λοιπὰ ἐπιτάγματα
+30	συνετέλουν· ἐπεὶ δὲ κατὰ κα̣ιροὺς ε̣ἰς
+ 	<supplied reason="omitted">ὕ</supplied>β<supplied reason="omitted">ρ</supplied>ι<supplied reason="omitted">ν</supplied> προχωρεῖν τινες κα̣ὶ βι̣άζεσθαι
+ 	ἤρξαντο, τηνικαῦτα ἐ̣λ̣α̣ττοῦσθαι
+ 	καὶ ἡ κώμη ἤρξατο· ἀπ̣ὸ γὰρ μειλίων δύ-
+ 	ο τῆς κώμης ἡμ̣ῶν πανηγύρ̣ε̣ως
+35	ἐπιτελουμένη̣ς δια̣βοήτου οἱ ἐκ̣ε̣ῖσε
+ 	τῆς πανηγύρε̣ως εἵνεκεν ἐπιδη̣μο̣ῦ̣ν-
+ 	τες ἡμέρα̣ις̣ π̣εντεκα̣ί̣δε̣κα ἐ̣ν τῷ̣
+ 	τόπῳ τῆς πανηγύρεως οὐ̣ κα̣ταμ̣έ-
+ 	νουσιν, ἀλλὰ ἀπολιμπάνοντ̣ες ἐ̣πέρ-
+40	χοντ̣αι εἰς τὴν ἡμετέραν κώμην
+ 	καὶ ἀναγκάζουσιν ἡμᾶς ξ̣ενίας α̣ὐ̣-
+ 	τοῖς παρέχειν καὶ ἕτ̣ερα πλεῖστα εἰς ἀ̣-
+ 	νάλη̣μψιν αὐτῶν ἄνευ ἀργ̣υρίου χ̣ο-
+ 	ρ̣ηγεῖν· πρὸς δὲ τού̣τοις καὶ στρατιῶτ̣α̣ι
+45	ἀλλαχοῦ πεμπόμενοι καταλιμπά-
+ 	νοντες τὰς ἰδίας ὁδοὺς πρὸς ἡ̣μᾶς̣ π̣α̣-
+ 	ραγείνον̣ται καὶ ὁμοίως κ̣ατε̣πείγουσιν
+ 	παρέχειν αὐτοῖς τὰ̣ς̣ ξ̣ε̣ν̣ίας κα̣ὶ τὰ ἐπι-
+ 	τήδια μηδ̣εμίαν τε̣ιμὴν καταβα̣λόντες̣·
+50	ἐπιδημο̣ῦσιν δὲ ὡς ἐπὶ τ̣ὸ̣ πλεῖστον
+ 	διὰ τὴν τῶν ὑδά̣των χρῆσιν̣ οἵ τε ἡ̣γού-
+ 	μενο̣ι τῆς ἐπαρχείας, ἀλ̣λὰ κ̣αὶ οἱ ἐπί-
+ 	τροποί σου· καὶ τ̣ὰς μὲν ἐξουσ̣ί̣α̣ς <supplied reason="omitted">ε</supplied>ὐ<supplied reason="omitted">ξ</supplied>ε̣-
+ 	νώτατα δεχ̣όμε̣θ̣α κατὰ τ̣ὸ ἀναγκα̣ῖον,
+55	τοὺς λοιποὺς ὑποφέ̣ρ̣ε̣ιν̣ μ̣ὴ δυνάμε-
+ 	νοι ἐνετύχομεν πλειστάκις̣ τοῖς ἡγε-
+ 	μόσι τῆ̣ς Θρᾴκης, οἵτινες ἀκολούθως
+ 	ταῖς θε̣ίαις ἐντολ̣αῖς ἐκέλευσαν ἀοχλ̣ή-
+ 	τους ἡ̣μᾶς εἶναι· ἐ̣δη̣λ̣ώσαμεν γὰρ μη-
+60	κέτ̣ι ἡμᾶ̣ς δύνασθαι ὑπομένε̣ιν, ἀλ̣-
+ 	λὰ καὶ νοῦν ἔχειν συνλε̣ί̣π̣ειν καὶ τοὺ̣ς
+ 	πατρῴους θ̣εμελίους διὰ τὴν τ̣ῶν
+ 	ἐπερχομένων ἡμεῖν βίαν· καὶ γὰρ
+ 	ὡς ἀληθῶς ἀπὸ πολλῶν οἰκοδεσπο-
+65	τῶν εἰς ἐλαχίστο̣υς κατεληλύθα-
+ 	με̣ν· καὶ χρόνῳ μέν τινι ἴ̣σχ̣υ̣σεν
+ 	τὰ προστάγματα τῶ̣ν̣ ἡγου̣μένων
+ 	καὶ οὐδεὶς ἡμεῖν ἐνόχλησεν οὔτε
+ 	ξενίας <supplied reason="omitted">αἰτή</supplied>ματι οὔτε παροχῆς ἐπι-
+70	τηδείων, προϊόντων δὲ τῶν χρόνων
+ 	πάλιν ἐτόλμησαν ἐπιφύεσθαι ἡ-
+ 	μεῖν πλεῖστοι ὅσοι <supplied reason="omitted">τ</supplied>ῆς ἰδιωτίας
+ 	ἡμῶν καταφρονοῦντες· ἐπεὶ οὖν οὐ-
+ 	κέτι δυνάμεθα φέρειν τὰ βάρη
+75	καὶ ὡς ἀληθῶς κινδυνεύομεν ὅπερ
+ 	οἱ λοιποὶ τόδε καὶ ἡμεῖς προλιπεῖν
+ 	τοὺς προγονικοὺς θεμελίους, τού-
+ 	του χάριν δεόμεθά σου, ἀνίκητε
+ 	Σεβαστέ, <supplied reason="omitted">ὅ</supplied>πως διὰ θείας σου ἀντιγρα-
+80	φῆς κελεύσῃ<supplied reason="omitted">ς</supplied> ἕκαστον τὴν ἰδίαν πο-
+ 	ρεύεσθαι ὁ̣δὸν̣ καὶ μὴ ἀπολιμπάνοντας
+ 	αὐτοὺς τὰς ἄλλας κώμ̣α̣ς ἐφ’ ἡμᾶς
+ 	ἔρχεσ̣θ̣α̣ι μήτε δὲ κ̣α̣τανα̣γκάζειν
+ 	ἡ̣μᾶ̣ς̣ χορηγεῖ̣ν α̣ὐτο<supplied reason="omitted">ῖ</supplied>ς προῖκα τὰ
+85	ἐπιτήδια̣· ἀ̣λ̣λὰ μ̣ηδὲ ξενίαν αὐ̣τοῖς̣
+ 	παρέχ̣ειν, οἷς μή̣ ἐστιν ἀ̣νάγκη, -ὅτι
+ 	γὰρ οἱ ἡγούμενοι πλεο̣ν̣άκις ἐκέ-
+ 	λευσαν μὴ̣ ἄ̣λλῳ παρέχεσθ̣αι ξε-
+ 	νίαν εἰ μὴ τοῖς ὑπὸ τῶν ἡ̣γ̣ουμέ-
+90	νων καὶ ἐπιτρόπων ἐκπεμ-
+ 	πομένοις εἰς ὑ̣πηρεσίαν· ἐὰν δὲ
+ 	βα̣ρο̣ύ̣μεθα, φευξό̣μεθ̣α̣ ἀ̣πὸ τ̣ῶν
+ 	ο̣ἰ̣κ̣ε̣ίων καὶ μεγίστ̣η̣ν̣ ζημίαν τ̣ὸ
+ 	ταμ̣εῖον περιβληθή̣σεται -ἵν̣α
+95	ἐ̣λεηθέντες διὰ τὴν θείαν σου
+ 	πρόνοιαν καὶ μείναν̣τες ἐν
+ 	τοῖς ἰδίο̣ις τούς τε ἱερ̣οὺς φόρους
+ 	κ̣αὶ τὰ λοιπὰ τελέσ̣ματα π̣αρ̣ασχεῖν
+ 	δυνησόμ̣εθα· συμβήσεται δὲ
+100 	τοῦτ̣ο ἡμ̣εῖν ἐν τ̣οῖς εὐτ̣υ̣χεστά-
+ 	τοις σοῦ καιρ̣οῖς, ἐὰν̣ κελ̣εύσῃ̣ς
+ 	τὰ̣ θεῖά σου γράμματα ἐν στ̣ή̣-
+ 	λῃ ἀναγραφέν̣τα δ̣ημοσίᾳ πρ̣ο-
+ 	φ[α]νεῖσθα̣ι, ἵνα̣ τούτ̣ου τυχόντε̣ς
+105  	τῇ Τύχῃ σου χάριν ὁμολογ̣εῖν
+ 	δυνησόμ̣εθα, ὡς καὶ νῦν καθ̣ο̣[σ]-
+ 	[ι]ωμένοι σου ποιοῦμεν.
+ 	 Ạdḷegenṭ  Πύρρος ὁ πρα̣[i]τ̣ωρ̣ ι̣-
+             α̣νὸς ἀπὸ θ̣είας φ ι̣λανθ̣ρωπί-
+110       ας έπὶ τὴν ἔντευ̣ξιν ταὺ-
+            την ἐλήλυθ̣ε̣ν· [κ]α̣ὶ̣ δ̣οκεῖ δ̣έ̣
+        	μοι̣ θεῶν̣ τ⸢ι⸣ς προ̣νοήσασθαι
+           τῆς παρούσης ἀξιώσεως·
+        	τὸ γ̣ὰρ⸢[τ⸣ὸ̣ν θ̣ειότατον ⸢Αὐ⸣τ̣ο̣-
+115  	κράτορ[α π⸣ερὶ τούτων πέ̣⸢μ⸣-
+        	ψαι τὴν διάγνωσιν ἐπὶ
+        	σέ ἔτι δὲ ἤ̣δη φθάσαντα
+        	περὶ τού⸢τ⸣<supplied reason="omitted">ω</supplied> κα⸢ὶ⸣ προγράμ-
+Right Column 
+	⸢μασιν καὶ διατάγμασιν⸣
+120  	⸢†δεδωκέναι†, τοῦτο ἐμοὶ δο⸣-
+        	⸢κεῖ τῆς ἀγαθῆς τύχης ἔργον⸣
+        	⸢εἶναι. ἦ<supplied reason="omitted">ν</supplied> δὲ ἡ ἀξίωσις· Ἡ κώ⸣-
+        	⸢μη ἡ τοῦ βοηθουμένου στρα⸣-
+        	⸢τιώτου ἐστ<supplied reason="omitted">ὶν</supplied> ἐν τῷ καλλί⸣-
+125  	⸢στῳ τῆς πολειτίας τῆς ἡμε⸣-
+        	⸢τέρας τῶν Παυταλιωτῶν πόλεως⸣
+        	⸢κειμένη, καλῶς μὲν τῶν ὀρῶν⸣
+        	⸢καὶ τῶν πεδίων ἔχουσα,⸣
+        	⸢πρὸς δὲ τούτοις καὶ θερ⸣-
+130  	⸢μῶν ὑδάτων λουτρὰ οὐ μό⸣-
+        	⸢νον πρὸς τρυφήν, ἀλλὰ καὶ⸣
+        	⸢ὑγείαν καὶ θεραπείαν σω⸣-
+        	μ̣ά̣τ̣ων̣ ⸢ἐπιτηδειότατα,⸣
+        	πλ̣ησ̣ί⸢ον δὲ καὶ πανήγυρις⸣
+135  	π̣⸢ο⸣λλ⸢ά⸣κ̣⸢ι⸣ς μὲ̣⸢ν ἐν τῷ ἔτει⸣
+        	συν⸢αγ⸣ομ̣ένη, π̣ε̣⸢ρὶ δὲ <supplied reason="omitted">κ</supplied>α<supplied reason="omitted">λ</supplied>(άνδας)⸣
+        	Ὀ̣κτ̣ωμ⌊βρίας καὶ εἰς πε̣⸢ντε⸣-
+        	καίδεκα ἡμερῶν ἀτε̣λ̣⸢ὴς.⸣
+        	συμβέβηκ̣εν̣ τοίνυν τὰ δ̣ο̣κ̣ο̣ῦ̣⸢ν⸣-
+140  	τα̣ ⸢τ⸣ῆς κώμης ταύτης πλεον-
+        	εκτ̣ήμα̣τα τῷ χρόνῳ περι-
+        	εληλυθ̣έναι α̣ὐτῆς εἰς ἐ-
+        	 λ̣αττώματα· —— διὰ γὰρ τὰς
+        	προ̣ειρημένα̣ς ταύτας
+145  	προ̣φάσεις πολλοὶ πολλά-
+	κ̣ις στρατιῶται ἐνεπιδη-
+        	μοῦντες ταῖς τε ἐπιξενώ-
+        	⸢σεσι⸣ν καὶ ταῖς βαρήσεσιν
+        	⸢ἐνο⸣χ̣λοῦσι τὴν κώμην·
+150  	κ̣[αι] διά τ̣α̣ύτα̣ς τὰς αἰτίας πρό-
+        	τε̣ρ̣ον αὐτὴν κα̣ὶ πλουσιο-
+        	τ̣έρ̣α̣ν̣ κ̣αὶ πολυ̣άνθρωπον
+        	 μᾶ̣λ̣<supplied reason="omitted">λο</supplied>ν οὖσαν νῦν εἰς ἐσχά-
+        	την ἀπορία̣ν ἐληλυθέναι.
+155  	περὶ τούτ̣ων ἐ̣δ⸢ε⸣ήθη-
+        	σαν πολλά̣κις̣ καὶ τῶν ἡγε-
+        	μό̣νων, ἀ̣λλ̣ὰ̣ κ̣α̣ὶ̣ μέχρις τι-
+        	νῶν ἴσχυ̣σ̣ε̣ν̣ α̣ὐτῶν τὰ
+        	προστάγμα̣τ̣⸢α⸣, με̣τὰ δὲ
+           
+160  	ταῦτα κατωλ̣ιγωρήθη
+        	διὰ τὴν συν̣ή⸢θ⸣ειαν τῆς
+        	το̣ιαύτης ἐνο̣⸢χ⸣λήσεως·
+        	δ̣ιὰ τοῦτο ἀναγκαίως̣ κατ̣-
+        	έφυγον ἐπὶ τὸν Σ̣ε̣βα̣σ̣τ̣ὸν.
+
+165	Imp(erator) Caeṣar M(arcus) Antonius Gordiạnuṣ ⸢Piu⸣s Felix Au⸢g⸣(ustus)
+           vikanis p̣er Pyrrun mil(item) conposses-
+sorẹ[m:] id genus qu[a]ẹṛellae praecibus intentum an ṾẸ…/\….ẠṬ iustitita
+        prạẹṣidis
+<supplied reason="omitted">p</supplied>ọti⸢us⸣ ṣuper his quae adlegabuntur instructa discingere qụạm rescripto 
+        pr⸢i⸣ncipali 
+certam formam reportare de\/beas. Rescrip\/si. Recognovi. Sigṇạ ṾỊ[I]
+
+</ab>
+</div>
+<div type="apparatus">
+<p> </p>
+</div>
+<div type="commentary" resp="MW">
+<p>
+</p>
+</div>
+<div type="bibliography">
+<p>
+</p>
+</div>
+</body>
+</text>
+</TEI>
+
+
