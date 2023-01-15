@@ -1,0 +1,186 @@
+
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Letter/Rescript of Gordian III to Nero Pudens</title>
+</titleStmt>
+<publicationStmt>
+<authority>APIS</authority>
+<idno type="apisid">berkeley.apis.335</idno>
+<idno type="ddbdp">p.tebt.2.285</idno>
+<idno type="HGV">13448</idno>
+<idno type="TM">13448</idno>
+<idno type="URI">https://papyri.info/ddbdp/p.tebt;2;285</idno>
+<idno type="URI">https://papyri.info/ddbdp/chr.mitt;;379</idno>
+<idno type="URI">https://dpg.lib.berkeley.edu/webdb/apis/apis2?apisid=335&amp;item=1</idno>
+<idno>Chrest.Mitt. II 379</idno>
+<idno> Oliver #280</idno>
+<idno>FIRA I #90</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+   <repository>Epistulae Project</repository>
+      <idno type="invNo">001</idno>
+</msIdentifier>
+<msContents>
+   <summary>Brief rescript explaining that registering a child (or not) has no effect on whether 
+      the child is legitimate or illegitimate. It was found in a small papyrus archive that 
+      probably belonged to a woman who took legal action on behalf of her daughter</summary>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support>
+<material>papyrus</material>
+<objectType>Letter</objectType>
+<objectType>rescript</objectType>
+<dimensions unit="cm">
+   <height scope="range">18.8 </height>
+   <width scope="range">15.5 </width>
+</dimensions>
+</support>
+</supportDesc>
+<layoutDesc>
+<layout>
+   <ab type="lines"> 7 lines, along the fiber</ab>
+   <ab type="recto-verso">writing on recto only, verso empty</ab>
+</layout>
+</layoutDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origPlace type="country">Egypt</origPlace>
+   <origPlace type="settlement">Tebtynis</origPlace>
+   <origPlace type="house">House at Tebtunis T421</origPlace>
+<origDate type="original">8 July 239 CE</origDate>
+   <origDate type="rescript">244-260 CE</origDate>
+</origin>
+<provenance type="found"> Egypt, Tebtynis (Umm el-Baragat), House at Tebtunis T421 </provenance>
+<provenance type="archive">
+   <placeName ref="https://www.trismegistos.org/archive/209">the archive of Sarapias and Sarapammon</placeName> 
+   <placeName ref="https://www.trismegistos.org/arch/archives/pdf/209.pdf">alternate link to archive</placeName>
+</provenance>
+<provenance type="observed">University of Berkely, California. Bancroft Library </provenance>
+</history>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+   <profileDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Greek</language>
+</langUsage>
+<textClass>
+   <keywords>
+      <term>rescript</term>
+      <term>legal</term>
+      <term>private law</term>
+      <term>children</term>
+      <term>census</term>
+      <term>registration</term>
+      <term>legitimate offspring</term>
+      <term>letter addressed to private individual</term>
+      <term>women and the law</term>
+      <term>status</term>
+      <term>law of succession</term>
+      <term>later copy</term>
+      <term>Greek translation</term>
+   </keywords>
+</textClass>
+</profileDesc>
+   <revisionDesc>
+      <change who="MW" when="2022-08-22">first working version created in google docs</change>
+      <change who="LSP" when="2022-10-11">File created</change>
+      <change who="LSP" when="2023-01-10">URI idnos added and Epistulae Project invno added</change>
+   </revisionDesc>
+</teiHeader>
+<facsimile>
+<graphic url="https://dpg.lib.berkeley.edu/webdb/apis/apis2?apisid=335&amp;item=1"/>
+</facsimile>
+<text>
+<body>
+<div xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<persName type="Emperor">Θεὸς Γορδιανὸς Σεβαστὸς </persName>
+  <persName type="adressee">Νέρωνι Πούδεντι</persName>. παραλιφθεῖσαι <rs>τέκνων
+  ἀπογραφαὶ</rs> οὔτε τούτους τοὺς <rs>ἀληθεῖς
+<del rend="erasure">νομιμους</del></rs> ὄντας <rs>παρανόμους</rs> ποιοῦσιν
+οὔτε τοὺς ἀλλοτρίους εἰ καὶ ἐγένοντο εἰς τὴν
+οἰκετείαν εἰσάγουσιν. <date>πρὸ <num value="8">η</num> Εἰδῶν
+Ἰουλίων <persName type="Consul">Γορδιανῷ</persName> καὶ <persName type="consul">Ἀουιόλᾳ</persName> ὑπάτοις.</date>
+ 
+</ab>
+</div>
+<div type="apparatus">
+<p>3. τούτους τούς Oliver] τούτους previous editions
+3. ἀληθῶς Riccobono FIRA I #90, suggested by Zuretti
+7. αουϊολα papyrus</p>
+</div>
+<div type="commentary" resp="MW">
+<p>
+Line by line notes:
+1	θεός: the use of this epithet implies the emperor had died and been deified at the point of 
+copying the papyrus. See our discussion on date and characteristics.
+1-2	Νέρωνι Πούδεντι: addressee, not otherwise known
+3	ἀπογραφαί: Greek term commonly used for declarations in front of a magistrate and registrations, including census registrations (LSJ s.v.; this needs some work).
+3-4	ἀληθεῖς ⟦νομίμους⟧: the word νομίμους was crossed out on the papyrus by the scribe or its users. While early editors deleted the word, Riccobono has pointed out that ἀληθεῖς νομίμους is in fact an apt equivalent of the Latin ueros legitimos. Though not attested elsewhere, the writings of the jurists amply feature collocations such as uerus tutor or uerus heres. See FIRA I #90 with note. Riccobono’s emendation of ἀληθεῖς into ἀληθῶς does not seem strictly necessary.
+5	ἀλλοτρίους: lit. ‘of another’ or ‘outsider’. The first editors Grenfell-Hunt-Goodspeed suggested this refers to extranei heredes, an heir not in the power of the testator at the time of death (see Berger s.v.). The next clause εἰ καὶ ἐγένοντο could then be taken as ‘if there existed any’. Yet it is somewhat unexpected to say that extranei heredes need to be added to the father’s household (εἰς τὴν οἰκετείαν εἰσάγουσιν) when he had died. The term is therefore more plausibly taken as ‘another’s children’ or ‘children from outside the household’. This also preserves a better parallelism with the preceding lines. See also the next note.
+5	εἰ καὶ ἐγένοντο: the subject is probably ἀπογραφαί, which is required by εἰσάγουσιν (line 6). See also the preceding note.
+6-7	The rescript ends with a dating formula based on the Roman calendar, not a Greco-Egyptian dating formula. This might suggest it was not composed in an Egyptian context. See our discussion on provenance and circulation.
+</p>
+<p>
+Date and characteristics
+The rescript carries a precise formula dating it to 8 July 239, probably its posting date (proposita) (see Connolly (2010) 44). However, the qualification of Gordian as θεός (‘deified’, Latin diuus) indicates that the emperor had died by the time the papyrus was written. This means that the papyrus was copied out in or after 244. Given the find context (see below), a date in the later 260s is plausible. The handwriting is a steady cursive Greek hand, its regularity and legibility suggesting training and experience. It fits well with the characteristics of the third century (include ref.). The text has been written on a separate sheet. It has wide margins, especially at the bottom, indicating that this is not a fragment of a collection. [should we separate date and characteristics?]
+</p>
+<p>
+What is this about legally speaking?
+The legal issue at the core of this rescript is the relationship between legitimacy of offspring and the official registration of children, the so-called professio liberorum [$$link to Berger$$]. Being someone’s legitimate child and being able to prove it was important for various reasons: it was necessary for succeeding to a father’s estate in case of intestacy, while in extreme cases it could be used to protect your status as a citizen and/or counter claims that you were someone else’s slave (see e.g. Evans Grubbs (2013)). Registration at birth was important but could not always prevent successful challenges. Although the sources are not entirely straightforward, Schulz has shown that the registration of legitimate children was first instituted by Augustus in the Lex Aelia Sentia and the Lex Papia Poppea, and that Marcus Aurelius widened this to include every Roman child of citizen status (Schulz (1942) 80-83). Children would be reported to the authorities but no verification of their status would take place at that point, with later challenges being possible (Schulz (1942) 87). It is also clear that failure to register a child (omissa professio) did not make a child illegitimate. Roman law is unambiguous that legitimacy is conditional on being born in wedlock or a properly carried out adoption, not the existence (or lack) of paperwork (Borkowski 116-117). Several rescripts from the third century clarify and confirm this. For example, a rescript of Valerian and Gallienus from the year 254 states that it is established law that ‘truth’ or ‘reality’ (ueritas) determine legitimacy, not a professio or an official statement by the parents (CJ 6.23.5 $$link EPISTULAE database$$). Diocletian and Maximian repeat that nature is leading and documents may be false (CJ 4.19.14, dated 293 CE) and that the loss of a document does not affect one’s status (CJ 2.21.6, dated 286 CE; CJ 7.16.15, dated 293 CE; see Probus on improperly handled documents at CJ 5.4.9 $$link EPISTULAE database$$, no date specified). This flurry of rescripts indicates that emperors were repeatedly petitioned about this matter, which in turn suggests that challenges to people’s status occurred regularly, not least in the context of inheritances. The rescript from Tebtynis under discussion here, which does not survive in the CJ, fits that context as well: see the discussion of the find context below. [I have linked to Scott’s translations, but we’ll need Latin as well]
+</p>
+<p>
+Significance of find spot
+While the addressee remains unknown apart from his name, the find context of the papyrus is able to provide a remarkably rich insight into who might have used this rescript and for what purposes. This is primarily due to the detailed work of Verhoogt (1998). The excavators and first editors report that the papyrus ‘was found tied up in a bundle with’ several other papyri, namely P.Tebt. 2 285, 319, 326, 335, 378, 406, and 588 (see introduction to P.Tebt. 2 326). Four of these documents, which date themselves to the years 248-265 CE, pertain to an individual named Marcus Aurelius Sarapammon (319, 378, 424, 588). As his name indicates, Sarapammon was of Roman citizen status, probably enfranchised by or born to parents enfranchised by the Constitutio Antoniniana of 212 CE. Sarapammon was also a man of some means, given that he is mentioned in a property division (319) and also rented out land (378, 588). In addition to these documents, the bundle contained two papyri referring to a woman called Aurelia Sarapias (326, 406). One of these is a petition to the prefect (ἡγεμών) Iulius Genialius (in office from ca. 264 until ca. 270 CE), requesting that he appoint Sarapias’ brother as guardian of her daughter Paulina after the death of Sarapias’ husband Paulus (326). The other document is an inventory of Paulus’ estate and tells us that it was handed over to his brother Pasigenes on the order of an arbitrator (μ̣[ε]|σ̣ί̣τ̣ου, 406, ll. 10-11; on the reading and reconstruction see Verhoogt (1998) 149). But whether or not there was an arbitrator, the fact that the brother ended up with the property strongly suggests that there was a dispute over the inheritance. We know from Sarapias’ petition that Paulus died intestate (ἀδιάθετος, 326, l. 5). Under Roman law, the inheritance would fall to his legitimate children. The brother must therefore have challenged Paulina’s legitimacy. The rescript fits this context well. Its presence among Sarapias’ papers suggests that she adduced the rescript to make the point that the failure to register Paulina did not affect her legitimacy. The outcome of the process, however, indicates that the brother managed to persuade the arbitrator, whether through compelling evidence or other means. The text does not suggest the outcome was a settlement. Finally, as for the bundle of papyri, it is quite likely that Sarapias was younger than Sarapammon, especially since Sarapammon is clearly an old man in the 260s (588, 378). Her access to his papers suggests she could be his daughter. Verhoogt (1998) 153 suggests that, after losing her husband’s property, she may have moved back to her paternal home and stored or discarded papers there. There is some evidence to suggest that children who lost their paternal estate undertook attempts to reclaim the estate later in life (Verhoogt (1998) 151 n. 56; add reff. to papyri).
+
+The use of Greek, the Egyptian provenance, and the circulation of rescripts
+While the text survives in Greek, it is certainly possible that the rescript was originally issued in Latin. Nothing is known about the addressee Nero Pudens, so we cannot use his name to tie him and the rescript to a specific geographical area, let alone a specific language (cf. Jördens (2019) 308-309). The dating formula might dissociate this rescript from Egypt. As far as we can see, the apokrimata, imperial decisions or responses issued in Egypt and probably published in Greek ($$link to EPISTULAE$$tag$$), all used Egyptian dating formulae. On other hand, our rescript uses a dating formula based on the Roman calendar, suggesting a different issuing context. It is therefore possible that the text was written in Latin, then translated into Greek for use in Egypt. (At the same time, possible Latinisms in the Greek do, as Daube (1958) 234 pointed out, not necessarily imply an act of translation). Much less can be said about how this rescript ended up with Sarapias or her legal advisor. The record indicates that people in Egypt increasingly (but not exclusively) made use of Roman law after the Constitutio Antoniniana, especially in the area of the law of succession, status, and family (see Alonso (2016) 61-65). The record also shows that the circulation of Roman law texts started to pick up in Egypt in the third century, a famous example being the copy of Gaius’ Institutes from Oxyrhynchus (P.Oxy. XVII 2103; see P.Redhis). [this section needs some work on the basis of the database!]
+</p>
+</div>
+<div type="translation" resp="MW">
+   <p>The deified Gordian Augustus to Nero Pudens. 
+
+Omitted registrations of children neither make those who are genuine [[legitimate]] illegitimate, nor do they, even though they (the registrations) did happen, add another’s children to your household.
+
+The eighth day before the Ides of July, the consuls being Gordian and Aviola
+
+</p>
+</div>
+<div type="bibliography">
+<p>
+Berger = Berger, A. (1968, rept. 1991). Encyclopedic Dictionary of Roman Law. Philadelphia: The American Philosophical Society
+
+Borkowski = Du Plessis, P.J. (202X). Borkowski’s Textbook of Roman Law. Oxford: Oxford University Press (Xth edition)
+
+==
+Alonso, J.L (2016). ‘Juristic Papyrology and Roman Law’. In: P.J. du Plessis, C. Ando, K. Tuori (eds.). The Oxford Handbook of Roman Law and Society. Oxford: Oxford Univerity Press, pp. 56-69
+
+Connolly, S. (2010). Lives behind the Laws. The World of the Codex Hermogenianus. Bloomington: Indiana University Press
+
+Evans Grubbs, J. (2013). ‘Between Slavery and Freedom: Disputes over Status and the Codex Justinianus’. Roman Legal Tradition (9) 31-93
+Jördens, A. (2019). ‘Reflexe kaiserlichen Wirkens in ägyptischen Papyri and Ostraka’. Chiron (49) 299-342
+
+Schulz, F. (1942). ‘Roman Registers of Births and Birth Certificates’. JRS (32) 78-91
+
+Schulz, F. (1943). ‘Roman Registers of Births and Birth Certificates. Part II’. JRS (33) 55-64
+
+Smolders, R. (2013). ‘Sarapias and Sarapammon’. Trismegistos Archives / Leuven Homepage of Papyrus Collections https://www.trismegistos.org/arch/archives/pdf/209.pdf
+
+Verhoogt, A.M.F.W. (1998). ‘Family Papers from Tebtunis. Unfolding a Bundle of Papyri’. In: S.P. Vleeming and A.M.F.W. Verhoogt (eds.). The Two Faces of Graeco-Roman Egypt: Greek and Demotic and Greek-Demotic Texts and Studies presented to P.W. Pestman (Pap. Lugd. Bat. 30). Leiden, pp. 141-154
+</p>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Descriptive title of text</title>
+</titleStmt>
+<publicationStmt> <!-- This is where the publication record lives, also where the TM number, APIS id number, etc is --> 
+<authority></authority>
+<idno></idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+    <repository>Epistulae</repository>
+   <idno type="URI"># for Epistulae project</idno>
+</msIdentifier>
+<msContents>
+   <summary>a summary of the text</summary>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support>
+<material>material</material>
+<objectType>type of text</objectType>
+<dimensions unit="cm">
+   <height scope="range"> </height>
+   <width scope="range"> </width>
+</dimensions>
+</support>
+</supportDesc>
+<layoutDesc>
+<layout>
+   <ab type="lines"> how many lines</ab>
+   <ab type="recto-verso"></ab> <!-- only relevant for papyri -->
+</layout>
+</layoutDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origPlace type="country"></origPlace>
+   <origPlace type="settlement"></origPlace>
+   <origPlace type="house"></origPlace>
+<origDate type="original"></origDate>
+</origin>
+<provenance type="found">where it was found </provenance>
+<provenance type="observed">current location</provenance>
+</history>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+   <profileDesc>
+<langUsage> <!-- all languages used in this file -->
+<language ident="en">English</language>
+<language ident="grc">Greek</language>
+<language ident="la">latin</language>
+</langUsage>
+<textClass>
+   <keywords>
+      <term>any specific keywords or terms relevant to the text</term> <!-- it may be useful to create a standardized list of useful key terms for the project -->
+   </keywords>
+</textClass>
+</profileDesc>
+   <revisionDesc> <!-- this is a record of all edits made to the file -->
+      <change who="LSP" when="2022-10-10">File created</change>
+   </revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+this will be where the main text will be
+</ab>
+</div>
+<div type="apparatus">
+<p> This is the section for the ap crit </p>
+</div>
+<div type="commentary">
+<p> This is the section for any commentary
+</p>
+</div>
+<div type="bibliography">
+<p> this is the bibliography section
+</p>
+</div>
+</body>
+</text>
+</TEI>
