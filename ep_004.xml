@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Rescript of Valerian and Gallienus to Aetia</title>
+</titleStmt>
+<publicationStmt> 
+<authority>n/a</authority>
+<idno>CJ 3.29.2</idno>
+<idno type="URI">https://droitromain.univ-grenoble-alpes.fr/Corpus/CJ3.htm%2329</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+    <repository>Epistulae</repository>
+   <idno type="URI">004</idno>
+</msIdentifier>
+<msContents>
+   <summary>Rescript explaining that if father gives all of his property to one child, to the neglect of another, that is to be regarded as an undutiful gift.</summary>
+</msContents>
+<history>
+<origin>
+<origDate>27 July 256 CE</origDate>
+</origin>
+</history>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+   <profileDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">latin</language>
+</langUsage>
+<textClass>
+   <keywords>
+      <term>rescript</term> 
+       <term>legal</term>
+       <term>private law</term>
+       <term>undutiful gifts</term>
+       <term>emancipation</term>
+       <term>intestacy</term>
+       <term>wills</term>
+       <term>inheritance</term>
+   </keywords>
+</textClass>
+</profileDesc>
+   <revisionDesc>
+       <change who="SC" when="2023-01-12">commentary created</change>
+      <change who="LSP" when="2023-01-23">File created</change>
+   </revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div xml:lang="la" type="edition" xml:space="preserve">
+<ab>
+Impp. Valerianus et Gallienus AA. Aetiae.  
+Pater si omne patrimonium suum impetu quodam immensae liberalitatis in filium effudit, aut in potestate is permansit, et arbitri familiae erciscundae officio congruit, ut tibi quartam debitae ab intestato portionis praestet incolumem, aut emancipatus fuerit, et, quia donatio non indiget alieno adminiculo, sed suis viribus nititur, iuxta constitutiones is qui provinciam regit ad similitudinem inofficiosi querellae auxilium tibi aequitatis impertiet. 
+PP. vi k. Aug. Maximo ii et Glabrione conss.
+</ab>
+</div>
+<div type="translation" resp="Frier 2016, I 703-705">
+    <p>Emperors Valerian and Gallienus Augusti to Aetia. If your father, by some impulse of extravagant generosity, gave all his property to his son, the latter either remained in the power of his father, in which case, in an action to divide, it behooves the judge to divide the property in such a way that you fully receive the fourth of the portion due on intestacy; or the son is emancipated, in which case, since a gift requires no outside help but is supported by its own strength (i.e., it requires no confirmation), the governor will, according to the constitutions, extend equitable relief following the pattern of a complaint to set a will aside as undutiful.
+Posted July 27, in the consulship of Maximus, for the second time, and Glabrio (256).
+</p>
+</div>
+<div type="commentary">
+<p> Line by line notes: [how do we manage this for texts transmitted through the ms tradition?]
+Aetia: this individual is otherwise unknown.
+impetu quodam immensae liberalitatis: a forceful expression that may reflect the tone of Aetia’s petition
+aut…aut: presentation of these alternatives are helpful for the reader of the CJ in demonstrating that, if the son had still in power at the time of the father’s death, then the father was considered to have died intestate and Aetia was due one fourth of the portion of the estate; if the favored son had been emancipated, relief could be sought by Aetia on the model of a remedy for an undutiful will. This detail had presumably been omitted from Aetia’s petition; the response states the outcome in the case of emancipation and lack of emancipation, and in so doing provides helpful information first to her and also to the later reader of the CJ. 
+potestate is permansit, et arbitri familiae erciscundae officio congruit, ut tibi quartam debitae ab intestato portionis praestet incolumem, aut emancipatus fuerit, et, quia donatio non indiget alieno adminiculo, sed suis viribus nititur, iuxta constitutiones is qui provinciam regit ad similitudinem inofficiosi querellae auxilium tibi aequitatis impertiet. 
+PP.: abbreviation of propositum, on the meaning of which see [add bibl. in here: Williams, Corcoran, me]
+
+Date and characteristics
+
+What is this about legally speaking?
+Note from Frier 2016, 705: “Gifts to unemancipated sons were generally invalid (C. 8.53.11), while gifts to emancipated sons were valid (C. 8.53.17).”
+[Add in refs to D., Gaius, Berger.]
+Significance of find spot
+</p>
+</div>
+<div type="bibliography">
+<p> Grubbs, Judith Evans. 2011. “Promoting Pietas through Roman Law.” In A Companion to Families in the Greek and Roman Worlds, ed. B. Rawson, 377–92. Blackwell-Wiley, p. 386.
+</p>
+</div>
+</body>
+</text>
+</TEI>
+
