@@ -46,7 +46,7 @@
 <origPlace type="country"></origPlace>
    <origPlace type="settlement"></origPlace>
    <origPlace type="house"></origPlace>
-<origDate type="original"></origDate>
+<origDate type="original">The date</origDate>
 </origin>
 <provenance type="found">where it was found </provenance>
 <provenance type="observed">current location</provenance>
