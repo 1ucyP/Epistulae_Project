@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Rescript of Probus to Massicia</title>
+</titleStmt>
+<publicationStmt> 
+<authority>n/a</authority>
+<idno type="URI">https://droitromain.univ-grenoble-alpes.fr/Responsa/FragVat.htm</idno>
+<idno type="URI">https://droitromain.univ-grenoble-alpes.fr/Corpus/CJ8.htm#53</idno>
+<idno>FV 288</idno>
+<idno>CJ 8.53.4</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+    <repository>Epistulae</repository>
+   <idno type="URI">003</idno>
+</msIdentifier>
+<msContents>
+   <summary>Doubly transmitted rescript, with only some shared text. An improperly or incompletely executed donation does not grant title to a recipient; payment of taxes, either directly or indirectly through a slave manager, does not prejudice the owner of the title.</summary>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support>
+<material>unknown</material>
+<objectType>letter</objectType>
+<objectType>rescript</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate type="original">28 December 280 CE</origDate>
+</origin>
+</history>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+   <profileDesc>
+<langUsage> <!-- all languages used in this file -->
+<language ident="en">English</language>
+<language ident="la">latin</language>
+</langUsage>
+<textClass>
+   <keywords>
+      <term>rescript</term> 
+       <term>tax</term>
+       <term>property</term>
+       <term>donation</term>
+       <term>surrender of property</term>
+       <term>ownership</term>
+       <term>posession</term>
+   </keywords>
+</textClass>
+</profileDesc>
+   <revisionDesc> 
+      <change who="LSP" when="2023-01-23">File created</change>
+   </revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div xml:lang="la" type="edition" xml:space="preserve">
+<ab>
+Dominus Imp. Probus Massiciae R... 
+Indubitati iuris est, siquidem donaturam te quaedam dixisti neque apud acta instrumenta fecisti aut eundem cui donabas dominum effecisti per rei cessionem perfectam ac solam tibi possessionem retinuisti, eum rem eam uindicare sibi non posse, quando apud te eius rei proprietas mansit... nec functionum pensiones uel per eum cui don[ata res non erat uel ab actoribus ipsius nomine] celebratae nunc tibi obesse a. ... poterunt... ius tum magistrum summarum... cum comminatione uide... praefinitione allega, ut, si praesidi rem probaueris... compellatur. 
+Proposita VI kal. Ian. Messalla et Grato Conss.
+</ab>
+</div>
+<div type="edition" xml:lang="la" xml:space="preserve">
+ <ab>
+    Probus A. Massiciae. 
+Si functiones per eum, cui donata res non erat, vel ab actoribus ipsius nomine celebratae sunt, tibi obesse non potest. 
+PP. v k. Ian. Messala et Grato Conss
+</ab>
+</div>
+<div type="translation" xml:lang="eng" resp="SC">
+<p> Emperor Probus to Massicia…
+There is no uncertainty in law as to the fact that, if you said you were going to give certain things and you did not do this in the written documents or the same person to whom you were making the donation you made the owner through the completion of a surrender of the property and you retained for yourself only possession, he cannot claim the property for himself, when the ownership of the property has remained with you ... and the publicly known payment of taxes either through him to whom the thing was not given or by his slave manager in his name cannot be prejudicial against you…
+Posted 28 December 280. 
+ </p>
+</div>
+<div type="translation" resp="SC" xml:lang="eng">
+    <p>Emperor Probus Augustus to Massicia. You cannot be prejudiced (as to title) by the fact that taxes (on your property) were paid by a man to whom the property had not been given, or by his slave manager (actor) in his name.
+Posted December 28, in the consulship of Messala and Gratus (280).
+</p>
+</div>
+<div type="commentary">
+<p> Line by line notes: [how do we manage this for texts transmitted through the ms tradition?]
+Massiciae R...: unknown recipient; no sense can be made of “R”
+Indubitati iuris est: an expression of legal authoritativeness, though the text is uncertain
+siquidem donaturam te quaedam dixisti: a donation is referenced here, though its status and possible communication of it are unclear, as “dixisti” is a supplement
+apud acta: refers here to the performance of a binding legal undertaking (specifically, the donation) before one or more officials and entered into the public records. Failure to conclude and record the donation publicly (seems to) render it invalid. See CTh. 8.12.1; CJ 8.53.25.
+instrumenta: the relevant legal documents, whose existence, publicly acknowledged, was needed to render the donation binding.
+aut eundem cui donabas dominum effecisti per rei cessionem perfectam ac solam tibi possessionem retinuisti, eum rem eam uindicare sibi non posse: a second scenario is presented that assumes a legally correct donation, but a faulty transfer of ownership. The current owner donated the property and gave ownership of it to a third party through the instrument of a transfer of debt, retaining only possession. [This seems to have been faulty: because it’s both a donation and a transfer of debt?] 
+quando apud te eius rei proprietas mansit...: as a result of the errors in the previously mentioned legal undertakings, ownership has remained with the petitioner and cannot therefore be claimed by another on the basis of the aforementioned legal undertakings
+nec functionum pensiones uel per eum cui don[ata res non erat uel ab actoribus ipsius nomine] celebratae nunc tibi obesse a: This portion of the text is the only part that overlaps with CJ 8.53.4, on which see below. The supplement is proposed on the basis of CJ 8.53.4. We learn that another person (or his slave manager) has been paying taxes on the petitioner’s property; she is told that such payments do not prejudice her claims to continued ownership.
+. ... poterunt... ius tum magistrum summarum... cum comminatione uide... praefinitione allega, ut, si praesidi rem probaueris... compellatur.: this final part of the text refers variously to a master (magistrum) (unless the Latin is faulty and a magistrate is meant), a magistrate’s threat to a party of penalties following non-compliance with the order of a court (comminatione), a defining limit (praefinitione) perhaps related to the order (Gai. Inst. 4.51; D. 36.2.20, a provincial governor (praeses), and compulsion (compellatur). While conjectures might be made as to the content of this final section of the text, its fragmentary state precludes any certainty.
+
+[SC: I need to go back and add in legal references.]
+
+Date and characteristics
+
+[On FV, check https://www.torrossa.com/en/resources/an/3053769 ]
+
+What is this about legally speaking?
+Watson 1974, 1125: “As in classical law, so in this rescript, there was no complete gift until the donor transferred the thing by physical delivery. Until the gift was complete, he or she had a perfect legal right to change his mind. Likewise, a non-owner did not become owner (or affect the real owner's title) by acting as if he were the owner.”
+
+Date and characteristics
+
+[On FV, check https://www.torrossa.com/en/resources/an/3053769 ]
+
+What is this about legally speaking?
+Watson 1974, 1125: “As in classical law, so in this rescript, there was no complete gift until the donor transferred the thing by physical delivery. Until the gift was complete, he or she had a perfect legal right to change his mind. Likewise, a non-owner did not become owner (or affect the real owner's title) by acting as if he were the owner.”
+
+</p>
+</div>
+ <div type="commentary">
+     <p>Line by line notes: [how do we manage this for texts transmitted through the ms tradition?]
+Massiciae: this individual is otherwise unknown. 
+Functiones: Berger notes [is it possible to have here a link to the relevant entry in Berger?] that this term has a broad semantic range, encompassing the discharge of duties and responsibilities. It is understood in Frier 2016 II.[page no?] as referring to taxes. [I’m wondering whether the reference in the FV text to res cessio raises the possibility that functiones here refers instead to payment of debts owed on it.]
+cui donata res non erat: while the FV text mentioned possible ways in which the donation may not have been successfully completed, the CJ text instead simply states that the person had not been in receipt of the property by donation 
+per eum...vel ab actoribus ipsius nomine celebratae sunt: taxes owed on the property had been paid either directly or through an enslaved individual acting on his behalf. Payment of these taxes was made publicly known, presumably in a bid to advertise the payer’s presumption of ownership.
+tibi obesse non potest: the payer’s attempts give him no legal benefit and do not jeopardize Massicia’s continued ownership.
+PP: abbreviation of propositum, on the meaning of which see [add bibl. in here: Williams, Corcoran, me]
+
+Date and characteristics
+
+What is this about legally speaking?
+
+Watson 1974, 1125: “A non-owner did not become owner (or affect the real owner's title) by acting as if he were the owner.” [This is just one part of the quotation included above. How much repetition of detail should there be in the presentation of these two texts?]
+
+[Add in refs to D., Gaius, Berger.]
+
+Significance of find spot
+</p>
+ </div>
+<div type="bibliography">
+<p> Watson, Alan. 1974. “The Rescripts of the Emperor Probus (276-282 A.D.),” Tulane Law Review 48.4: 1122-1128.
+</p>
+</div>
+</body>
+</text>
+</TEI>
+
