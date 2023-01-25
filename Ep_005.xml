@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Rescript of Gordian to Domitius</title>
+</titleStmt>
+<publicationStmt> <!-- This is where the publication record lives, also where the TM number, APIS id number, etc is --> 
+<authority></authority>
+<idno>CJ 1.50.1</idno>
+<idno type="URI">https://droitromain.univ-grenoble-alpes.fr/Corpus/CJ1.htm#50</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+    <repository>Epistulae</repository>
+   <idno type="URI">005</idno>
+</msIdentifier>
+<msContents>
+   <summary>Rescript explaining two issues: first (and primarily) that someone who is serving in the place of a provincial governor has the right accorded to a governor to try a case that concerns a municipality; second, as has been </summary>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support>
+<material>manuscript tradition</material> <!-- I need to figure out best practice for manuscript tradition -->
+<objectType>rescript</objectType>
+<dimensions unit="cm">
+   <height scope="range">n/a </height>
+   <width scope="range">n/a </width>
+</dimensions>
+</support>
+</supportDesc>
+<layoutDesc>
+<layout>
+   <ab type="lines"> n/a</ab>
+   <ab type="recto-verso">n/a</ab> 
+</layout>
+</layoutDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origPlace type="country">n/a</origPlace>
+   <origPlace type="settlement">n/a</origPlace>
+   <origPlace type="house">n/a</origPlace>
+<origDate>3 November 240</origDate>
+<origDate type="alternate">February 240 CE</origDate>
+</origin>
+<provenance type="found">n/a</provenance>
+<provenance type="observed">n/a</provenance>
+</history>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+   <profileDesc>
+<langUsage> <!-- all languages used in this file -->
+<language ident="en">English</language>
+<language ident="la">latin</language>
+</langUsage>
+<textClass>
+   <keywords>
+      <term>rescript</term> 
+       <term>municipailty</term>
+       <term>govenor</term>
+       <term>trial</term>
+       <term>defenders</term>
+       <term>judicial powers of deputized administrators</term>
+   </keywords>
+</textClass>
+</profileDesc>
+   <revisionDesc> 
+       <change who="SC" when="2023-01-12"> commentary created</change>
+      <change who="LSP" when="2023-01-25">File created</change>
+   </revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div xml:lang="la" type="edition" xml:space="preserve">
+<ab>
+Imp. Gord. A. Domitio PP 
+In causa quae spectat ad utilitatem rei publicae eum qui vice praesidis provinciae administrat potuisse cognoscere in dubium non venit. sane si in aliquo captum est ius rei publicae, iuxta scita divorum principum defensores rei publicae (si modo adesse fiduciam negotio putant) restitutionis auxilium possunt flagitare.  
+D. iii non. Nov. Sabino ii et Venusto Conss.
+</ab>
+</div>
+<div type="translation" resp="Frier 2016, I ">
+<p> Emperor Gordian Augustus to Domitius, Praetorian Prefect. There is no doubt whether he who administers a province in place of a governor could try a case bearing on the welfare of a municipality. Indeed, if the right of a municipality is disadvantaged in some matter, the Defenders of the municipality—provided they think the case has merit—can, pursuant to the decrees of the divine emperors, demand the remedy of restitution.
+Given November 3, in the consulship of Sabinus, for the second time, and Venusius (240).
+</p>
+</div>
+<div type="commentary">
+<p> Line by line notes: [how do we manage this for texts transmitted through the ms tradition?]
+Domitio: a praetorian prefect in 240. The duration of his office is unknown. No additional  prosopographical information exists.
+utilitatem: a vague term, perhaps used here in order to give the rescript general validity for most matters pertaining to a municipality
+rei publicae: here referring generally to a geographical administrative unit within a province
+vice praesidis provinciae: referring here to someone who assumed the duties of a provincial governor who had died or was indisposed; the rescript clarifies that the duties assumed included those hearing cases
+iuxta scita divorum principum: [what’s being referred to?]
+defensores rei publicae: individuals who were appointed to act as legal representatives of a geographical administrative unit within a province. See D 3.3 [???—most appropriate?]
+si modo adesse fiduciam negotio putant: the rescript suggests that a deputized governor will hear such a case only when it is brought by the defensores, who must agree that it has merit
+D.: abbreviation of propositum, on the meaning of which see [add bibl. in here: Williams, Corcoran, me]
+
+Date and characteristics
+
+What is this about legally speaking?
+Whether an individual who stands in for a provincial governor takes on all the responsibilities of that role, including the authority to hear cases concerning communities within the province.
+
+[Add in refs to D., Gaius, Berger.]
+Significance of find spot
+
+</p>
+</div>
+<div type="bibliography">
+<p> this is the bibliography section
+</p>
+</div>
+</body>
+</text>
+</TEI>
+
