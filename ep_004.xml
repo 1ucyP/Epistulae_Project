@@ -67,9 +67,9 @@
 <body>
 <div xml:lang="la" type="edition" xml:space="preserve">
 <ab>
-Impp. Valerianus et Gallienus AA. Aetiae.  
-Pater si omne patrimonium suum impetu quodam immensae liberalitatis in filium effudit, aut in potestate is permansit, et arbitri familiae erciscundae officio congruit, ut tibi quartam debitae ab intestato portionis praestet incolumem, aut emancipatus fuerit, et, quia donatio non indiget alieno adminiculo, sed suis viribus nititur, iuxta constitutiones is qui provinciam regit ad similitudinem inofficiosi querellae auxilium tibi aequitatis impertiet. 
-PP. vi k. Aug. Maximo ii et Glabrione conss.
+<rs type="Title"><expan><abbr>Impp.</abbr><ex>eratores</ex></expan></rs> <rs type="sender"><persName type="Emperor">Valerianus</persName> et <persName type="Emperor">Gallienus</persName> <rs type="title"><expan><abbr>AA.</abbr><ex>ugusti</ex></expan></rs></rs> <persName type="attested"><rs type="addresse">Aetiae.</rs></persName> 
+Pater si omne patrimonium suum impetu quodam immensae liberalitatis in filium effudit, aut <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n311/mode/2up">in potestate</rs> is permansit, et arbitri familiae <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n125/mode/2up">erciscundae</rs> officio congruit, ut tibi <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n335/mode/2up">quartam</rs> debitae ab <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n185/mode/2up">intestato</rs> portionis praestet incolumem, aut <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n121/mode/2up">emancipatus</rs> fuerit, et, quia <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n113/mode/2up">donatio</rs> non indiget alieno adminiculo, sed suis viribus nititur, <rs type="PoliticalLegalExp">iuxta constitutiones</rs> is qui provinciam regit <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n379/mode/2up">ad similitudinem</rs> <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n173/mode/2up">inofficiosi</rs> querellae auxilium tibi <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n25/mode/2up">aequitatis</rs> impertiet. 
+<rs type="AdminProcess">PP.</rs> <date type="calendrical">vi k. Aug.</date> <date type="consular">Maximo ii et Glabrione conss.</date>
 </ab>
 </div>
 <div type="translation" resp="Frier 2016, I 703-705">
