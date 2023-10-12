@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Letter of Philip Arabicus and Philip II to Aelius Aemilianus</title>
+</titleStmt>
+<publicationStmt> 
+<authority>AE 2006 (2003)</authority> <!-- idk if this is right -->
+<idno>no. 2040</idno>
+<idno>Pferdehirt RGZM 75</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+    <repository>Epistulae</repository>
+   <idno type="URI">006</idno>
+</msIdentifier>
+<msContents>
+   <summary>Rescript to the prefect of the Vigiles that grants early discharge to a member of the Vigiles on the grounds of his ill health. There follows a summary of the soldier’s postings.</summary>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support>
+<material>Bronze Tablet</material>
+<objectType>rescript</objectType>
+<dimensions unit="cm">
+   <height scope="range">16.6 </height>
+   <width scope="range"> 14.8</width>
+   <depth scope="range">0.35</depth>
+</dimensions>
+</support>
+</supportDesc>
+<layoutDesc>
+<layout>
+   <ab type="lines"> 20</ab>
+   <ab type="recto-verso">n/a</ab> 
+</layout>
+</layoutDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origPlace type="country">unknown</origPlace>
+   <origPlace type="settlement">unknown</origPlace>
+   <origPlace type="house">unknown</origPlace>
+<origDate type="original">Between 21 June 248 and September or October 249</origDate>
+</origin>
+<provenance type="found">Southern Balkans</provenance>
+<provenance type="observed">Mainz, Römisch-Germanisches Zentralmuseum, inv. O. 42684</provenance>
+</history>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+   <profileDesc>
+<langUsage> 
+<language ident="en">English</language>
+<language ident="grc">Greek</language>
+<language ident="la">latin</language>
+</langUsage>
+<textClass>
+   <keywords>
+      <term>rescript</term> 
+      <term>legal</term>
+      <term>military discharge</term>
+      <term>Vigiles</term>
+      <term>soldier</term>
+      <term>dispensation</term>
+      <term>beneficium</term> <!-- these last two terms are tentative at the moment -->
+   </keywords>
+</textClass>
+</profileDesc>
+   <revisionDesc> 
+      <change who="SC" when="2023-10-10">original commentary created</change>
+      <change who="LSP" when="2023-10-12">File created</change>
+   </revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div xml:lang="la" type="edition" xml:space="preserve">
+<ab>
+1.	Imp(erator) Caes(ar) M. Iulius Philippus Pius Fel(ix) Aug(ustus) et 
+2.	Imp(erator) Caes(ar) M. Iulius Philippus Pius Fel(ix) Aug(ustus) 
+3.	Aelio Aemiliano suo salutem.
+4.	Coh(orte) II uig(ilum) Philippiana (centuria) Martialis 
+5.	quae succura tua habes, Aemiliane karissime,  
+6.	propter aduersam corporis ualitudinem sacra-
+7.	mento solui uolimus M. Aurelium M. f.  
+8.	Mucianum ex Moesia Inferiore 
+9.	coh(ortis) II uig(ilum) Philippianae qui prob˹a˺tus est Gordia-
+10.	no et Auiola co(n)s(ulibus) mil(es) fact(us) XIII kal(endas) Iul(ias) a Celso pr(aefecto), 
+11.	absentatus Ost(iae) ad u˹e˺xill(ationem) id(ibus) April(ibus) Gordiano II et 
+12.	Pompeiano co(n)s(ulibus), r(editus) id(ibus) Aug(ustis) co(n)s(ulibus) s(upra) s(criptis), absentat (us) in orien-
+13.	tale (ante diem) VIIII kal(endas) Sept(embres) Gordiano II et Pompeiano co(n)s(ulibus), r(editus) 
+14.	(ante diem) VIIII kal(endas) Ian(uarias) Peregrino et Aemiliano co(n)s(ulibus), absentat(us) 
+15.	Sardinia XVII kal(endas) Sept(embres) Philippo Aug(usto) et Titiano co(n)s(ulibus),  
+16.	r(editus) (ante diem) V kal(endas) Iun(ias) co(n)s(ulibus) s(upra) s(criptis), absentatu(s) Lunae <et> Pis<a>e id(ibus) Apr(ilibus) 
+17.	Praesente et Albino co(n)s(ulibus), r(editus) (ante diem) X kal(endas) Iulias  
+18.	duobus Philippis Aug(ustis consulibus), incisus fru-
+19.	mentum public(um) kal(endis) Mart(iis) Arriano et 
+20.	Papo co(n)s(ulibus) f(rumentum) p(ublicum) a(ccipit) d(ie) XXII ost(io) XII.
+
+</ab>
+</div>
+<div type="apparatus">
+<p> 18-19.  frumentum public(um) written for frumento publico</p>
+</div>
+<div type="translation" resp="SC">
+    <ab>Emperor Caesar M. Ilius Philippus Pius Felix Augustus and Emperor Caesar M. Iulius Philippus Pius Felix Augustus send greetings to Aleius Aemilianus. We wish that, in the second Philippian cohort of the vigiles, the century of Martialis, which you have in your care, dearest Aemilianus, on account of the poor state of his physical health M. Aurelius Mucianus, son of Marcus, be released from his sworn service.
+M. Aurelius Mucianus, son of Marcus, from Moesia Inferior, in the second Philippian cohort of vigiles, who was recruited in the consulship of Gordian and Aviola [239] and made a soldier on the 13th day before the kalends of July [18 June] by the prefect Celsus; he was sent to Ostia to a vexillatio on the ides of April [13 April] in the consulship of Gordian II and Pompeianus [241] and was returned on the ides of August [13 August] in the aforewritten consulship; he was sent away to the East on the 9th day before the kalends of September [23 August] in the consulship of Gordian II and Pompeianus [241] and was returned on the 9th day before the kalends of January [23 December] in the consulship of Peregrinus and Aemilianus [244]; he was sent away to Sardinia on the 17th day before the kalends of September [15 August] in the consulship of Philip Augustus and Titianus [245] and was returned on the 5th day before the kalends of June [28 May] in the aforewritten consulship; he was sent away to Luna and Pisa on the ides of April [13 April] in the consulship of Praesens and Albinus [246] and was returned on the 10th day before the kalends of July [21 June] in the consulship of the two Philips [247 or 248]; inscribed as a recipient of the public wheat supply on the kalends of March [1 March] in the consulship of Arrianus and Papus [243], he received his allotment of wheat on the 22nd day at the 12th gate.
+</ab>
+</div>
+<div type="commentary">
+<p> This is the section for any commentary <!-- NOT YET CREATED -->
+</p>
+</div>
+<div type="bibliography">
+<p> L’Année Épigraphique 2003 (2006): 722–724. http://www.jstor.org/stable/25607961
+Demougin Ségolène, Loriot Xavier. Les détachements du vigile M. Aurelius Mucianus. In: Bulletin de la Société Nationale des Antiquaires de France, 2004-2005, 2011. pp. 381-386. DOI : https://doi.org/10.3406/bsnaf.2011.10957  www.persee.fr/doc/bsnaf_0081-1181_2011_num_2004_1_10957
+Pferdehirt, B. “Ein kaiserliches Reskript aus dem Jahr 248/249 n. Chr.”. AKB 33 (2003): 403-19.
+Saldern, Falko v. “Ein Kaiserliches Reskript zur Entlassung eines Angehörigen der Vigiles.” Zeitschrift für Papyrologie und Epigraphik 156 (2006): 293–307. http://www.jstor.org/stable/20191091.
+</p>
+</div>
+</body>
+</text>
+</TEI>
+
