@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Letter of Gordian III concerning banditry</title>
+</titleStmt>
+<publicationStmt> <!-- This is where the publication record lives, also where the TM number, APIS id number, etc is --> 
+<authority>Classical Journal</authority>
+<idno>CJ 8.40.13</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+    <repository>Epistulae</repository>
+   <idno type="URI">007</idno>
+</msIdentifier>
+<msContents>
+   <summary>Letter to an unnamed official asserting that a decurion of an unknown city must honor his pledge to hand over a named bandit; should he fail to do so, he will be handed over to the praetorian prefect or provincial governor.
+</summary>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support>
+<material>n/a</material>
+<objectType>letter</objectType>
+<dimensions unit="cm">
+   <height scope="range">n/a </height>
+   <width scope="range">n/a </width>
+</dimensions>
+</support>
+</supportDesc>
+<layoutDesc>
+<layout>
+   <ab type="lines"> n/a</ab>
+   <ab type="recto-verso">n/a</ab> 
+</layout>
+</layoutDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origPlace type="country">unknown</origPlace>
+   <origPlace type="settlement">n/a</origPlace>
+   <origPlace type="house">n/a</origPlace>
+<origDate type="original">August 238 to July 239</origDate>
+</origin>
+<provenance type="found">n/a</provenance>
+<provenance type="observed">n/a</provenance>
+</history>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+   <profileDesc>
+<langUsage> 
+<language ident="en">English</language>
+<language ident="grc">Greek</language>
+<language ident="la">latin</language>
+</langUsage>
+<textClass>
+   <keywords>
+      <term>letter</term> 
+      <term>letter adressed to an unnamed official</term>
+      <term>decurion</term>
+      <term>Praetorian</term>
+      <term>prefect</term>
+      <term>provincial governor</term>
+      <term>banditry</term>
+      <term>public order</term>
+      <term>pledge</term> <!-- tentative -->
+   </keywords>
+</textClass>
+</profileDesc>
+   <revisionDesc> 
+      <change who="SC" when="2023-10-11">Original Commentary Created</change>
+      <change who="LSP" when="2023-10-12">File created</change>
+   </revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div xml:lang="la" type="edition" xml:space="preserve">
+<ab>
+Pars ex epistula Gordiani A. 
+Si Barsagoram latronem Lysanias decurio inventurum se spopondisset, aut exhibere compellendus est aut transmittendus ad praefectum praetorio vel ad praesidem provinciae. 
+</ab>
+</div>
+<div type="translation" resp="Frier 2016">
+<p> Part of a letter of Gordian Augustus. If the decurion Lysanias solemnly promised that he would find the bandit Barsagoras, he should be compelled either to produce him or be sent to the Praetorian Prefect or the provincial governor (for punishment).
+ </p>
+</div>
+<div type="commentary">
+<p> Line by line notes: [CJ texts don’t have line numbers. What are we doing about that?]
+Pars ex epistula: the letter is only partially preserved in the CJ. While other texts preserved in the CJ are similarly only partially included, that fact is not normally recorded.
+Barsagoram: while no location is recorded for matter at hand, the name Barsagoras seems to be Semitic; a location in the eastern provinces is therefore most likely.
+Latronem: specification of Barsagoras as a bandit suggests that the debt owed by him is perhaps related to his illicit activities. Lysanias, as a figure of local authority, has agreed to act as surety perhaps as a demonstration of his commitment to public order.
+Transmittendus: inclusion of the letter under title CJ 8.40 De Fideiussoribus et Mandatoribus (Sureties and Mandators) strongly suggests that the decurion Lysanias is acting as a fideiussor (see Berger s.v.) for Barsagoras. The latter’s failure to repay a debt owed and/or attend a previously arranged hearing or meeting now obliges Lysanias to compel Barsagoras to present himself publicly, otherwise he will face punishment for his own non-compliance at the hands either of the praetorian prefect or provincial governor. 
+
+Date and characteristics
+Attribution of the letter to Gordian III, whose reign began in August 238, and placement of it before a rescript of Gordian III that is dated to July 5 239 supply termini ante and post quem. 
+
+</p>
+</div>
+<div type="bibliography">
+<p> Millar, F. (2017). “Imperial Letters in Latin from the Time of Cyprian.” In Text and the Material World: Essays in Honour of Graeme Clarke, ed. E. Minchin and H. Jackson, 267-280. Astrom: Uppsala.
+</p>
+</div>
+</body>
+</text>
+</TEI>
+
