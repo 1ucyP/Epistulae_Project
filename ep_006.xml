@@ -52,6 +52,7 @@
 </origin>
 <provenance type="found">Southern Balkans</provenance>
 <provenance type="observed">Mainz, Römisch-Germanisches Zentralmuseum, inv. O. 42684</provenance>
+<provenance type="Archive">The Archive of M. Aurelius M. f. Mucianus</provenance>
 </history>
 </msDesc>
 </sourceDesc>
@@ -83,26 +84,26 @@
 <body>
 <div xml:lang="la" type="edition" xml:space="preserve">
 <ab>
-1.	Imp(erator) Caes(ar) M. Iulius Philippus Pius Fel(ix) Aug(ustus) et 
-2.	Imp(erator) Caes(ar) M. Iulius Philippus Pius Fel(ix) Aug(ustus) 
-3.	Aelio Aemiliano suo salutem.
+1.	<persName type="Emperor">Imp(erator) Caes(ar) M. Iulius Philippus Pius Fel(ix) Aug(ustus)</persName> et 
+2.	<persName type="Emperor">Imp(erator) Caes(ar) M. Iulius Philippus Pius Fel(ix) Aug(ustus)</persName> 
+3.	<persName type="addressee">Aelio Aemiliano</persName> suo salutem.
 4.	Coh(orte) II uig(ilum) Philippiana (centuria) Martialis 
 5.	quae succura tua habes, Aemiliane karissime,  
-6.	propter aduersam corporis ualitudinem sacra-
-7.	mento solui uolimus M. Aurelium M. f.  
-8.	Mucianum ex Moesia Inferiore 
-9.	coh(ortis) II uig(ilum) Philippianae qui prob˹a˺tus est Gordia-
-10.	no et Auiola co(n)s(ulibus) mil(es) fact(us) XIII kal(endas) Iul(ias) a Celso pr(aefecto), 
-11.	absentatus Ost(iae) ad u˹e˺xill(ationem) id(ibus) April(ibus) Gordiano II et 
-12.	Pompeiano co(n)s(ulibus), r(editus) id(ibus) Aug(ustis) co(n)s(ulibus) s(upra) s(criptis), absentat (us) in orien-
-13.	tale (ante diem) VIIII kal(endas) Sept(embres) Gordiano II et Pompeiano co(n)s(ulibus), r(editus) 
-14.	(ante diem) VIIII kal(endas) Ian(uarias) Peregrino et Aemiliano co(n)s(ulibus), absentat(us) 
-15.	Sardinia XVII kal(endas) Sept(embres) Philippo Aug(usto) et Titiano co(n)s(ulibus),  
-16.	r(editus) (ante diem) V kal(endas) Iun(ias) co(n)s(ulibus) s(upra) s(criptis), absentatu(s) Lunae <et> Pis<a>e id(ibus) Apr(ilibus) 
-17.	Praesente et Albino co(n)s(ulibus), r(editus) (ante diem) X kal(endas) Iulias  
-18.	duobus Philippis Aug(ustis consulibus), incisus fru-
-19.	mentum public(um) kal(endis) Mart(iis) Arriano et 
-20.	Papo co(n)s(ulibus) f(rumentum) p(ublicum) a(ccipit) d(ie) XXII ost(io) XII.
+6.	propter aduersam corporis ualitudinem <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n359/mode/2up"> sacra-
+7.	mento solui</rs> uolimus <persName>M. Aurelium M. f. <!-- unclear to me if I should have a subtype for this name tag -->  
+8.	Mucianum </persName>ex <placeName>Moesia Inferiore</placeName> 
+9.	coh(ortis) II uig(ilum) Philippianae qui prob˹a˺tus est  <date type="Consular"><persName type="Emperor">Gordia-
+10.	no</persName> et <persName type="Consul">Auiola co(n)s(ulibus)</persName></date> mil(es) fact(us) <date type="Calendrical">XIII kal(endas) Iul(ias) </date>a <persName type="Official">Celso pr(aefecto)</persName>, 
+11.	absentatus <placeName>Ost(iae)</placeName> ad u˹e˺xill(ationem) <date type="Calendrical">id(ibus) April(ibus)</date> <date type="Consular"> <persName type="Emperor">Gordiano II</persName> et 
+12.	<persName type="Consul">Pompeiano co(n)s(ulibus)</persName></date>, r(editus) <date type="Calendrical">id(ibus) Aug(ustis)</date> <date type="Consular">co(n)s(ulibus) s(upra) s(criptis)</date>, absentat (us) in orien-
+13.	tale <date type="Calendrical">(ante diem) VIIII kal(endas) Sept(embres)</date> <date type="Consular"><persName type="Emperor">Gordiano II</persName> et <persName type="Consul">Pompeiano co(n)s(ulibus)</persName></date>, r(editus) 
+14.	<date type="Calendrical">(ante diem) VIIII kal(endas) Ian(uarias)</date> <date type="Consular"><persName type="Consul">Peregrino</persName> et <persName type="Consul">Aemiliano co(n)s(ulibus)</persName></date>, absentat(us) 
+15.	<placeName>Sardinia</placeName> <date type="Calendrical">XVII kal(endas) Sept(embres)</date> <date type="Consular">Philippo Aug(usto) et Titiano co(n)s(ulibus)</date>,  
+16.	r(editus) <date type="Calendrical">(ante diem) V kal(endas) Iun(ias)</date> <date type="Consular">co(n)s(ulibus) s(upra) s(criptis)</date>, absentatu(s) <placeName>Lunae</placeName> <supplied reason="omitted">et</supplied> <placeName>Pis<supplied reason="omitted">a</supplied>e</placeName> <date type="Calendrical">id(ibus) Apr(ilibus) </date>
+17.	<date type="Consular"><persName type="Consul">Praesente</persName> et <persName type="Consul">Albino</persName> co(n)s(ulibus)</date>, r(editus) <date type="Calendrical">(ante diem) X kal(endas) Iulias </date> 
+18.	<date type="Consular">duobus <persName type="Emperor">Philippis Aug(ustis consulibus)</persName></date>, incisus fru-
+19.	mentum public(um) <date type="Calendrical">kal(endis) Mart(iis)</date> <date type="Consular"><persName type="Consul">Arriano</persName> et 
+20.	<persName type="Consul">Papo</persName> co(n)s(ulibus)</date> f(rumentum) p(ublicum) a(ccipit) d(ie) XXII ost(io) XII.
 </ab>
 </div>
 <div type="apparatus">
