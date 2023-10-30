@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Letter / Rescript of Valerian and Gallienus to Marthona and Sabinilla</title>
+</titleStmt>
+<publicationStmt>
+<authority>Classical Journal</authority>
+<idno>2.30.3</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+    <repository>Epistulae</repository>
+   <idno type="URI">008</idno>
+</msIdentifier>
+<msContents>
+   <summary>Individuals under the age of 20 who manumitted enslaved household members without a family consultation may pursue restitution of their property. If the decision to manumit was taken on the incorrect or fraudulent advice of their freedman curator, the curator will pay compensation and, if fraud was intended, will be punished.
+</summary>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support>
+<material>n/a</material>
+<objectType>letter</objectType>
+<objectType>rescript</objectType>
+<dimensions unit="cm">
+   <height scope="range">n/a </height>
+   <width scope="range">n/a </width>
+</dimensions>
+</support>
+</supportDesc>
+<layoutDesc>
+<layout>
+   <ab type="lines">n/a</ab>
+   <ab type="recto-verso">n/a</ab> 
+</layout>
+</layoutDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origPlace type="country">n/a</origPlace>
+   <origPlace type="settlement">n/a</origPlace>
+   <origPlace type="house">n/a</origPlace>
+<origDate type="original">26 September 260</origDate>
+</origin>
+<provenance type="found">n/a</provenance>
+<provenance type="observed">n/a</provenance>
+</history>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+   <profileDesc>
+<langUsage> 
+<language ident="en">English</language>
+<language ident="la">latin</language>
+</langUsage>
+<textClass>
+   <keywords>
+      <term>rescript</term> 
+      <term>legal</term>
+      <term>private law</term>
+      <term>manumission</term>
+      <term>slavery</term>
+      <term>freed persons</term>
+      <term>curator</term>
+      <term>guardianship</term>
+      <term>restitution</term>
+   </keywords>
+</textClass>
+</profileDesc>
+   <revisionDesc> 
+       <change who="SC" when="2023-10-27"> Original commentary created</change>
+      <change who="LSP" when="2023-10-30">File created</change>
+   </revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div xml:lang="la" type="edition" xml:space="preserve">
+<ab>
+<name type="Emperor">Impp. Valerianus</name> et <name type="Emperor">Gallienus AA. </name> <name type="addressee">Marthonae</name> et <name type="addressee">Sabillinae</name>.
+pr. Quos retrahi in servitutem postulatis, si non in <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n79/mode/2up">consilio</rs> <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n65/mode/2up">causa cognita</rs>, cum <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n253/mode/2up">minores</rs> annis viginti fuissetis, <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n245/mode/2up">manumisistis</rs>, non per <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n353/mode/2up">in integrum restitutionem</rs>, sed ipso iure persequi potestis. quod si probata causa <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n233/mode/2up">libertas</rs> praestita est, <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n353/mode/2up">restitutio in integrum</rs> contra <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n233/mode/2up">libertatem</rs> locum habere non potest.
+    1. Si tamen in ea re <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n89/mode/2up">culpa</rs> seu <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n147/mode/2up">fraude</rs> <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n233/mode/2up">liberti</rs> eiusdemque <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n91/mode/2up">curatoris</rs> ratio vestra laesa sit, sarciri <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n95/mode/2up">damnum</rs> ab eo qui hoc intulit <rs type="OfficialTitle">praeses provinciae</rs> curabit, non dubitaturus etiam graviorem exsecutionem adhibere, si quid tam aperta <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n147/mode/2up">fraude</rs> commissum est, ut puniendum in <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n233/mode/2up">liberto</rs> <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n89/mode/2up">crimen</rs> deprehendatur. 
+<date type="Calendrical">PP. viii k. Oct.</date> <date type="Consular">Saeculare ii et Donato conss.</date>
+</ab>
+</div>
+<div type="translation" resp="SC, Frier, 2016">
+<p> Emperors Valerian and Gallienus Augusti to Marthona and Sabinilla. pr. Concerning those whom you ask to be dragged back into slavery, if, when you were less than 20 years old, you manumitted them but not in a family council after an examination of the case, you can pursue them without resorting to restoration of rights, by (automatic) operation of law. 1. If, however, your interest in this matter was harmed by the fault or fraud of the freedman who is also your curator, the provincial governor will see to it that this loss is recompensed by the person who inflicted it, and he will not hesitate also to mete out an ever harsher punishment if anything occurred with such open fraud that in the case of the freedman a crime deserving of punishment is detected.
+Posted September 24, in the consulship of Saecuralis, for the second time, and Donatus (260).
+ </p>
+</div>
+<div type="commentary">
+<p> tbd
+</p>
+</div>
+<div type="bibliography">
+<p> tbd
+</p>
+</div>
+</body>
+</text>
+</TEI>
