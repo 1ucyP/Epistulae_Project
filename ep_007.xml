@@ -8,7 +8,7 @@
 <titleStmt>
 <title>Letter of Gordian III concerning banditry</title>
 </titleStmt>
-<publicationStmt> <!-- This is where the publication record lives, also where the TM number, APIS id number, etc is --> 
+<publicationStmt> 
 <authority>Classical Journal</authority>
 <idno>CJ 8.40.13</idno>
 </publicationStmt>
@@ -84,8 +84,8 @@
 <body>
 <div xml:lang="la" type="edition" xml:space="preserve">
 <ab>
-Pars ex epistula Gordiani A. 
-Si Barsagoram latronem Lysanias decurio inventurum se spopondisset, aut exhibere compellendus est aut transmittendus ad praefectum praetorio vel ad praesidem provinciae. 
+Pars ex epistula <rs type="sender"><persname type="Emperor">Gordiani A. </persname></rs>
+Si <persname type="Private Individual">Barsagoram</persname> latronem <persname type="official">Lysanias</persname> <rs type="title">decurio</rs> inventurum se <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n383/mode/2up">spopondisset</rs>, aut exhibere compellendus est aut transmittendus ad <rs type="title">praefectum praetorio</rs> vel ad <rs type="title">praesidem provinciae. </rs>
 </ab>
 </div>
 <div type="translation" resp="Frier 2016">
