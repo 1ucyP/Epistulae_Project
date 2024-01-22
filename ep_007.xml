@@ -84,8 +84,8 @@
 <body>
 <div xml:lang="la" type="edition" xml:space="preserve">
 <ab>
-Pars ex epistula <rs type="sender"><persname type="Emperor">Gordiani A. </persname></rs>
-Si <persname type="Private Individual">Barsagoram</persname> latronem <persname type="official">Lysanias</persname> <rs type="title">decurio</rs> inventurum se <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n383/mode/2up">spopondisset</rs>, aut exhibere compellendus est aut transmittendus ad <rs type="title">praefectum praetorio</rs> vel ad <rs type="title">praesidem provinciae. </rs>
+Pars ex epistula <rs type="sender"><persName type="Emperor">Gordiani A. </persName></rs>
+Si <persName type="PrivateIndividual">Barsagoram</persName> latronem <persName type="official">Lysanias</persName> <rs type="title">decurio</rs> inventurum se <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n383/mode/2up">spopondisset</rs>, aut exhibere compellendus est aut transmittendus ad <rs type="title">praefectum praetorio</rs> vel ad <rs type="title">praesidem provinciae. </rs>
 </ab>
 </div>
 <div type="translation" resp="Frier 2016">

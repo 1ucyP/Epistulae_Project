@@ -46,7 +46,7 @@
 <origPlace type="country"></origPlace>
    <origPlace type="settlement"></origPlace>
    <origPlace type="house"></origPlace>
-<origDate type="original">The date</origDate>
+<origDate type="original" evidence="example">The date</origDate>
 </origin>
 <provenance type="found">where it was found </provenance>
 <provenance type="observed">current location</provenance>
@@ -67,12 +67,13 @@
 </textClass>
 </profileDesc>
    <revisionDesc> <!-- this is a record of all edits made to the file -->
+      <change who="" when="">commentary created</change>
       <change who="LSP" when="2022-10-10">File created</change>
    </revisionDesc>
 </teiHeader>
 <text>
 <body>
-<div xml:lang="grc" type="edition" xml:space="preserve">
+<div xml:lang="grc" type="edition" xml:space="preserve"> <!-- remember to change language btwn grc/la -->
 <ab>
 this will be where the main text will be
 </ab>
@@ -80,7 +81,10 @@ this will be where the main text will be
 <div type="apparatus">
 <p> This is the section for the ap crit </p>
 </div>
-<div type="commentary">
+<div type="translation" resp="">
+   <ab> this is where the translation goes</ab>
+</div>
+ <div type="commentary">
 <p> This is the section for any commentary
 </p>
 </div>
