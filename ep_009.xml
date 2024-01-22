@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Letter of Decius and Herennius Etruscus to the Aphrodisians confirming freedom and rights</title>
+</titleStmt>
+<publicationStmt> <!-- This is where the publication record lives, also where the TM number, APIS id number, etc is --> 
+<authority>InsAph</authority>
+<idno>8.114</idno>
+<idno>Aphrodisias and Rome 25</idno>
+<idno>Oliver #285</idno>
+<idno>MAMA (8) 424</idno>
+<idno>REG (19) 82</idno>
+<idno>CIG II 2743</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+    <repository>Epistulae</repository>
+   <idno type="URI">009</idno>
+</msIdentifier>
+<msContents>
+   <summary>Brief letter confirming the city of Aphrodisias’ pre-existing freedom and rights. It also thanks the inhabitants for their sacrifices and prayers upon the emperors’ accession. 
+</summary>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support>
+<material>marble</material>
+<objectType>inscription</objectType>
+<objectType>letter</objectType>
+<dimensions unit="meters">
+   <height scope="range">0.785 </height>
+   <width scope="range">1.61</width>
+    <depth scope="range">0.33</depth>
+</dimensions>
+</support>
+</supportDesc>
+<layoutDesc>
+<layout>
+   <ab type="lines"> 17</ab>
+   <ab type="recto-verso">n/a</ab> <!-- only relevant for papyri -->
+</layout>
+</layoutDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origPlace type="country">Turkey</origPlace>
+   <origPlace type="settlement">Aphrodisias (Geyre)</origPlace>
+   <origPlace type="house">walls</origPlace>
+<origDate type="original" evidence="reign inscription letter">250 CE</origDate>
+</origin>
+<provenance type="found">Aphrodisias, Turkey </provenance>
+<provenance type="observed">at findspot</provenance>
+<provenance type="archive">Archive Wall of Aphrodisias</provenance>
+</history>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+   <profileDesc>
+<langUsage> <!-- all languages used in this file -->
+<language ident="en">English</language>
+<language ident="grc">Greek</language>
+</langUsage>
+<textClass>
+   <keywords>
+      <term>imperial accession</term> 
+      <term>sacrifices</term>
+       <term>freedom of cities</term>
+       <term>tax exemption</term>
+       <term>rights of cities</term>
+       <term>city status</term>
+       <term>local politics</term>
+       <term>diplomacy</term>
+       <term>ambassadors</term>
+       <term>patronage</term>
+       <term>centre-periphery</term>
+   </keywords>
+</textClass>
+</profileDesc>
+   <revisionDesc> <!-- this is a record of all edits made to the file -->
+       <change who="MW" when="2023-11-07">commentary created</change>
+       <change who="LSP" when="2024-01-22">File created</change>
+   </revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div xml:lang="grc" type="edition" xml:space="preserve" resp="MW">
+<ab>
+<rs type="sender"><rs type="Title">Αὐτοκράτωρ Καῖσαρ</rs></rs> <persName type="emperor">⟦Γάϊος̣ Μέσ̣σ̣ι̣ο̣ς̣ Κόϊν̣τ̣ος̣ Τ̣[ραϊα]ν̣ὸς̣
+Δ̣[έκ]ι̣ος̣⟧</persName> <rs type="title">Εὐσεβὴς Εὐτυχὴς Σεβαστός</rs> <rs type="role">δημαρχικῆς
+ἐξουσίας</rs> τὸ γ´ <rs type="office">ὕπατος</rs> τὸ β´ ἀποδεδειγμένος τὸ τρίτον
+<rs type="title">πατὴρ πατρίδος</rs> ἀνθύπατος καὶ <persName type="emperor">⟦Κόϊν̣τ̣ος̣ Ἑ̣ρ̣έν̣ν̣ι̣ος̣ Ἐ̣τ̣ρ̣οῦσ̣κ̣ο[ς] 
+Μέσ̣σ̣ι̣ος̣ Δ̣έκ̣ι̣ος̣⟧</persName> <rs type="title">ἀρχιερεὺς μέγιστος</rs> <rs type="role">δημαρχικῆς ἐξουσίας </rs>
+τὸ πρῶτον <rs type="office">ὕπατος</rs> ἀποδεδειγμένος <rs type="addressee"><placeName>Ἀφροδεισιέων</placeName> τοῖς 
+(dec.) ἄρχουσιν καὶ τῇ βουλῇ καὶ τῷ δήμῳ</rs> <rs type="salutation">χαίρειν </rs>(dec.)
+εἰκὸς ἦν ὑμᾶς καὶ διὰ τὴν ἐπώνυμον τῆς πόλεως θεὸν καὶ
+διὰ τὴν πρὸς Ῥωμαίους <rs type="Diplomacy" ref="https://www.jstor.org/stable/j.ctv28bqmjg.11">οἰκειότητά</rs> τε καὶ <rs type="Diplomacy" ref="https://www.jstor.org/stable/j.ctv28bqmjg.11">πίστιν</rs> ἡσθῆναι
+μὲν ἐπὶ τῇ καταστάσει τῆς βασιλείας τῆς ἡμετέρας
+θυσίας δὲ καὶ εὐχὰς ἀποδοῦναι δικαίας καὶ ἡμεῖς δὲ
+τήν τε <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n59/mode/2up"><rs type="diplomacy" ref="https://www.jstor.org/stable/j.ctv28bqmjg.11">ἐλευθερίαν</rs></rs> ὑμεῖν φυλάττομεν τὴν ὑπάρχουσαν
+καὶ τὰ ἄλλα δὲ σύνπαντα <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n59/mode/2up"><rs type="diplomacy">δίκαια</rs></rs> ὁπόσων παρὰ τῶν πρὸ ἡ-
+μῶν αὐτοκρατόρων τετυχήκατε συναύξειν ἑτοίμως
+ἔχοντες ὑμῶν καὶ τὰς πρὸς τὸ μέλλον ἐλπίδας (dec.)
+(vac.) <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n209/mode/2up"><rs type="office">ἐπρέσβευον</rs></rs> <persName type="Ambassador">Αὐρήλιοι Θεόδωρος</persName> καὶ Ὀνήσιμος
+(vac.) <rs type="salutation">εὐτυχεῖτε</rs> (vac.)
+</ab>
+</div>
+<div type="translation" resp="MW">
+<p> Emperor Caesar ⟦Gaius Messius Quintus T[raia]nus Decius⟧ Pius Felix Augustus, with tribunician power for the third year, consul for the second time, designated for the third time, Pater Patriae, proconsul, and ⟦Quintus Herenniu[s] Etruscus Messius Decius⟧ Pontifex Maximus, with tribunician power for the first year, consul designate, to the chief magistrates and the council and the people of the Aphrodisians, greetings.
+
+It was reasonable that you, on account of both the eponymous goddess of your city and your close relationship with and loyalty to the Romans – that you were delighted about the establishment of our reign and offered rightful prayers and sacrifices. And we protect the freedom that has existed for you and all other rights that you have obtained from the emperors before us. And we are willing to increase also your hopes for the future.
+
+As ambassadors served Aurelius Theodoros and Aurelius Onesimos
+
+Farewell! </p>
+</div>
+<div type="commentary">
+<p> 1-4	Both imperial names have been erased on the stone. The deletion was carried out so thoroughly that the original letters are hard to read. Working from a drawing by the botanist Sherard (British Library, Harley MS 7509, fol. 000), who was consul of the Turkey Company at Smyrna in the early 1700s, Boeckh supplied the names of Diocletian and Maximian (CIG 2741). This restoration was widely accepted: only Waddington in the mid nineteenth century suggested Decius and Herennius Etruscus instead. Reynolds’ close study of the original inscription in the 1960s and 1970s confirmed these names (see A&amp;R, p. 141). [autopsy of inscription required]
+
+The deletion is limited to the personal names and does not extend to the imperial titles. This practice is well-attested for many third-century emperors (as we will see below), but we also regularly find fuller erasures. This illustrates that Roman imperial damnatio memoriae did not take a single form but consisted of bespoke bundles of memory sanctions (e.g. Usherwood 2022 on shades of cancellation; contra OCD s.v.). 
+
+The nature and scope of the memory sanctions against Decius and Herennius Etruscus are shrouded in some mystery. We know of no officially proclaimed damnatio memoriae. As far as we are able to see, Decius and Herennius Etruscus were deified very soon after their deaths in battle in the summer of 251 (Eutr. 9.4; CIL VI.36760 (Rome); AE 1920.32 (Djémila/Cuicul); cf. AE 2014.1415 (Bölcske); RRP IX.1467 (Aegeae, Cilicia)). Decius’ successor as senior emperor, Trebonianus Gallus, maintained Decius’ younger son Hostilianus as Augustus until the latter’s death quite soon after (precise events and chronology are unclear: see Rea 1984: 19-21, Peachin 1990: 69-74). Finally, it is undeniable that in a number of records the names of Decius and Herennius Etruscus have been erased (e.g. CIL 000).
+
+Some have argued that the cancellations must reflect a memory sanction from the centre, which came with some delay and involved a dramatic reversal under Trebonianus Gallus. In support of the official character, scholars have pointed to a number of inscriptions and papyri that leave out the two names altogether in consular dates (CIL X.3699; CIL XIV.352; ChLA VII.352 = P.Dura 97; see Gilliam 1956 with further references). But the inscriptions raise questions, since at least CIL XIV.352 carries a date preceding Decius’ death. CIL XI.4086, traditionally adduced in support, has now been dated half a century earlier to the year 202 (see EDCS and EDR; concerns already at Salisbury and Mattingly 1924: 20) [this leaves 1 inscription, which calls for re-examination as it could be a caess coss. type of subscription]. Finally, Ziegler has shown that privileges granted by Decius to Thessalonica were revoked after his rule, perhaps pointing to a memory sanctioning package, although this may not have happened until the reign of Valerian and Gallienus (Ziegler 1988: 391-2).
+
+Other scenarios should therefore be considered as well. While the erasure of the two names is paralleled in a number of inscriptions (000), an even larger proportion of inscriptions preserves the names unscathed—as do the papyri. This indicates that cancellation was not carried out systematically, in contrast to, for example, Geta’s case [link to texts / discussions in Epistulae database]. Perhaps people simply made assumptions upon learning of Decius’ death. It is worth noting that the epigraphic record shows erasures, similarly unsystematic, for each emperor in the generation leading up to Decius as well as for his successor Trebonianus Gallus and his son Volusianus. Leaving out the complex case of Alexander Severus, we can observe this for Maximinus Thrax, the two Gordians, Pupienus and Balbinus, Gordian III, and Philip the Arab and his son. Moreover, cancellations probably tended to happen sooner rather than later: several inscriptions deleting Pupienus’ and Balbinus’ names but leaving Gordian’s strongly suggest this happened on Gordian III’s watch, immediately after the deaths of the other two (CIL III.6953 (Cappadocia); AE 2014, 484 (Aquileia); AE 1994, 1395 (Pannonia Superior)). Considering all this, it may therefore have been relatively straightforward to conclude that names were to be erased after an emperor’s demise, even without a formal request or resolution to that effect. To be sure, the pattern makes it less plausible that we should ascribe the erasures of Decius’ name to later Christian activists who looked back on Decius as a persecutor, as some scholars have suggested (mentioned by Potter 2014: 248). While not impossible, this will need to be argued for on a case-by-case basis. Erasures of Philip the Arab’s name, whom Eusebius (and his source) considered a Christian (HE 6.34), suggest a more immediate intervention driven first and foremost by imperial politics.
+
+The Aphrodisias inscription shows the removal of individuals from public space, but the survival of the titulature preserves the imperial authority behind the text. That is, while individuals have been cancelled, their acts and decisions have not. A similar strategy can be found in late antique law codes, for example when emperors brand predecessors as usurpers, erase their names, but let legal acts stand for the sake of providing legal stability and security (e.g. Bono 2019). In this specific case, this makes sense, whether or not there was an official damnatio. For while it has been suggested that several cities had new privileges from Decius cancelled (Potter 2014: 000; Ziegler 1998 for Thessalonica), the Aphrodisias letter merely confirms pre-existing privileges, which would have been hard to cancel. At the same time, the inscription shows that the Aphrodisias had paid their emperors their respect even in cases where the emperors were later cancelled. If we take it that the inscription was somehow part of the so-called Archive Wall and not removed from it until the fourth century (see below), the inscription signals that, despite the damnatio, the text was considered to stand as an imperial decision and one worth displaying. [this needs a little bit of background work: does this happen more often? When do we start seeing the erasures of names only? When do we first see the adoption of ‘usurpers’ laws?]
+
+1. 	Καῖσαρ: the inscription presents Decius and his son Herennius Etruscus as co-rulers. The title of Caesar only occurs before Decius’ name, but inscriptions and coins show clearly that Herennius Etruscus held the title too (e.g. Peachin 1990 s.v. Traianus Decius #93-97, #99-102, #105-109, #112-113; RIC IV Traianus Decius 34-43, 52a, RIC IV Traianus Decius 151-155, RPC IX.883-885 (Synnada, Phrygia), IX.1596-1598 (Rhesaena, Mesopotamia)). Reynolds suggested there must be “some error” here because “Herennius should be called Caesar” (A&amp;R, p.142; on the placement of pontifex maximus, see the note below). However, Peachin’s study of imperial titulature on inscriptions, coins, and papyri has shown that titular formulae are often condensed and might drop individual titles, even in situations where we might expect relatively high degrees of fullness and accuracy (imperial coins, imperial letters) (Peachin 1990: 1-20). The record preserves a few parallels that also leave out the Caesar title for Herennius Etruscus. This is the case in, for instance, a provincial coin from Anazarbus in Cilicia (RPC IX.1483) and a bronze medallion with the names of Decius, Herennius Etruscus, and Hostilianus that leaves out the Caesar title for the latter two (#149a = Gnecchi, Medaglioni, II, p.101, tab. 110 nr 6).
+
+It should further be noted that when Decius and Herennius Etruscus occur together, it is always Decius who is called Αὐτοκράτωρ Καῖσαρ. This is clearest in cases where Decius’ name comes second: the title is listed directly before Decius (Peachin #135 = CIL VI.1101 (Italy), #140 = CIL XI.3088 (Italy), #158 = CIL VI.1100 (Italy), title suppressed at #134 = CIL II.4058 (Hispania); cf. #148-149). It is therefore less plausible that we should read Αὐτοκράτωρ Καῖσαρ as governing both, even though Herennius Etruscus is regularly called Imperator Caesar when he features alone (#99-101).
+
+2-3	The combination of tribunician power years and consulship numbers allows us to postulate a rather precise date for the letter, namely between 10 December 250 and 1 January 251 (see our more extensive discussion on date and characteristics).
+
+5	ἀρχιερεὺς μέγιστος: this is a common Greek rendering of pontifex maximus (e.g. LSJ s.v. ἀρχιερεύς; Mason s.v. ἀρχιερεύς). The office was traditionally held for life by a single person, and it is attested for every (senior) emperor since Augustus. The standard view is that, from the time of Nerva, the title came with the proclamation of an Augustus by the Senate (e.g. Cameron 2016: 140-141). Given this background, it is striking that the Aphrodisias inscription places the title with the junior emperor rather than Decius. The scholarship has traditionally seen this as an error in the inscription (A&amp;R, p.142), but a case can also be made for another dropped titular element (see our earlier note on Καῖσαρ; Peachin 1990: 1-20 on the general phenomenon). It will be helpful to disentangle several issues that have remained tied up in the scholarship so far.
+
+First, was Herennius Etruscus pontifex maximus in late 250? Peachin’s catalogue of imperial titulature shows that both Decius and Herennius Etruscus are attested with this title in the epigraphic record though never jointly in the same inscription (Peachin 1990 s.v. Traianus Decius #22-28, 31-34, 35-37, 40-42, 44-62, 102). To this we can add that the coinage of Decius styles Herennius Etruscus as pontifex maximus not later than the second year of his tribunician power (RIC IV Traianus Decius 166, 211?; for consulship iterations in coin legends, cf. Peachin (1990) 52-53).
+
+	The evidence suggests that it was not unusual in the third century for more than one emperor to hold the title of pontifex maximus. This is first on record for Pupienus and Balbinus, who both became pontifex maximus in 238 (both styled so in CIL VIII.103423, AE 1937.32, CIL VIII.10365, CIL VIII.22586; individually styled so in their coinage; see Peachin 1990 s.v. Pupienus and Balbinus, and Cameron 2016: 141). Philip the Arab and his son were both pontifex maximus by the late 240s (Peachin s.v. Philippus #192, 212, 239, 241, 243, 245). Immediately after Decius’ reign, Trebonianus Gallus and Volusianus both held the title as well (Peachin s.v. Trebonianus #000). It is therefore unproblematic that this inscription credits Herennius Etruscus with the title. (Note that Rüpke 2008 lists Herennius Etruscus as pontifex but never as pontifex maximus despite CIL II.4952 = RIT 936 (Hispania), the inscription under discussion, and the imperial coinage).
+
+	Why, then, is Herennius Etruscus explicitly labelled pontifex maximus while Decius is not? At first glance, one might say that, given that the title was so closely tied to that of Augustus, it must have been self-evident that Decius held it too. Yet Peachin’s catalogue makes it clear that inscriptions mentioning the title explicitly always place it with Decius, the senior emperor (#136-138, 140, 146). The closest thing to a parallel dates to the reign of Valerian and Gallienus, whose titulature sometimes leave pontifex maximus out for one or the other (see Peachin 1990 s.v. Valerianus and Gallienus #356-360). While omitting titles of emperors is common, the general trend seems to be that the senior emperors get more of their titles listed, and that the junior emperors tend not to get titles listed that are suppressed for the senior ones. This makes the Aphrodisias inscription unusual in its title omission, but it does not equip an emperor with a title he did not hold.
+
+	Finally, who might have been responsible for the precise form of the titular inscription? This remains a matter of speculation. The general practice in inscribing texts on the so-called Archive Wall seems to have entailed clipping and condensing titulature for reasons of space (Kokkinia 2016: 000). Note, for example, that while the main part of the dossier was carved in the 220s (or perhaps around 200), no earlier emperors are called diuus or θεός. So, while we cannot be sure, it is well possible that the original letter dispatched to the Aphrodisians carried fuller titulature. The text of this original, or perhaps an archived copy of it, was then stylised for display purposes. It is hard to say whether the end result would have diminished Decius’ honour and would therefore have been offensive.
+
+5	δημαρχικῆς ἐξουσίας: the usual Greek term for tribunicia potestas. The holding of tribunician power all but guarantees that Herennius Etruscus was a Caesar at this point.
+
+6	Ἀφροδεισιέων: Aphrodias is almost invariably indicated as the “city of the Aphrodisians”. Cf. A&amp;R #15-21 [add Ins.Aph. and Epistulae database record numbers].
+
+7	ἄρχουσιν καὶ τῇ βουλῇ καὶ τῷ δήμῳ: formulaic form when addressing a city ().
+
+8	διὰ τὴν ἐπώνυμον τῆς πόλεως θεὸν:  invocation of the goddess is traditional and can therefore not be taken to signify any special religious emphasis on the part of Decius.
+
+9	οἰκειότητά τε καὶ πίστιν: common terms in Roman diplomatic texts (see Staatsverträge des Altertums, vol. 4, Register III s.v.) and as such a rhetorical commonplace. The term οίκειότης stands for Latin societas, while πιστίς renders Latin fides. Both are crucial element in Roman social and diplomatic relations (see e.g. see e.g. A&amp;R #8.28; general discussion in Billows 2008). [something on the chronological patterning of diplomatic value terms once the database is much more complete]
+
+10 	καταστάσει τῆς βασιλείας τῆς ἡμετέρας: another indication that Herennius Etruscus was Caesar at this point.
+
+11	θυσίας δὲ καὶ εὐχὰς ἀποδοῦναι δικαίας: the emphasis on ‘rightful prayers and sacrifices’ is unparalleled in letters of this type. It is tempting to connect it to Decius’ interest in enforcing sacrifice for the benefit of the empire/emperor. He is well known for his issuing a number of decrees to this effect (see Rives 1999 for an excellent discussion).
+
+12	τήν τε ἐλευθερίαν ὑμεῖν ... τὴν ὑπάρχουσαν: by the time of Decius, Aphrodisias had enjoyed imperial and royal favour for centuries. The Archive Wall preserves a selection of confirmatory letters that tell us what this freedom entailed. See next note. 
+
+13-14	τὰ ἄλλα δὲ σύνπαντα δίκαια ὁπόσων παρὰ τῶν πρὸ ἡ-|μῶν αὐτοκρατόρων τετυχήκατε: earlier letters preserved on the Archive Wall indicate that Aphrodisias had obtained freedom from Roman troops, billeting, tax, and contributions (A&amp;R #8-9).
+
+14-15	ἑτοίμως ἔχοντες ὑμῶν καὶ τὰς πρὸς τὸ μέλλον ἐλπίδας: commonplace?
+
+16 	It is common for imperial letters of this period to mention the ambassadors (and to do so with this formula). For example, we find similar statements (usually) before the closing salutation and a Roman dating formula in the letters of Gordian preserved in SB 18.13774, 13775, 13776 [add others]. In other cases, the official who had forwarded the petition or request to the emperor is mentioned. The inclusion of these names must therefore have been a routine feature of imperial letters. It may have been done for purposes of archiving [possibly by addressee?] and/or verification. In any case, it is plausible that ambassadors and their families would like to see their names mentioned and advertised as it would enhance their honour and status in the community (for this last point, see A&amp;R p. 112; see also Williams in Historia 16 (1970), p. 470f.).
+
+	The two ambassadors mentioned here, Aurelius Theodoros and Aurelius Onesimos, are not otherwise known. Their family names suggest enfranchisement under the Constitutio Antoniniana.
+
+17 	εὐτυχεῖτε: common ending for letters and petitions. It is widely attested for imperial letters in inscriptions and on papyrus.
+
+17 	imperial letters on papyrus often add a Roman dating formula after the closing salutation, indicating the day, month, and place, but usually without consuls or regnal years [check once database if further along]. This is probably the decision or despatch date. This date has been left off here in this inscription.
+
+
+Date, characteristics, diplomatics
+The original letter can be dated with considerable precision. First, having served as suffect consul in 232, Decius second consulship spanned the year 250, while his third was set to start on 1 January 251. Next, Herennius Etruscus was not elevated to the position of Caesar until the middle of the year 250 (various views on the precise month: see Peachin 1990: 32). This brings us to the second half of 250. Finally, Costa has suggested that Decius, while proclaimed emperor by the Senate and invested with tribunicia potestas in September 249 (Peachin 1990: 30-32), probably kept or reset the tribunician year change to the traditional date of 10 December. If this is correct, then his first tribunician year started in September 249, his second on 10 December 249, his third on 10 December 250, and his third consulship on 1 January 251. The letter must have been written in the window 10 December 250 to 1 January 251. (See Peachin 1990: 67-68 for the problems with establishing Decius’ tribunician power iterations, the highly problematic and confusing evidence, and the suggestions that have been in made in the scholarship; ibid. 51-53 for the general problems with the evidence for tribunician iterations and consular years).
+
+It is harder to say anything with confidence about when the letter was inscribed. Although it remains uncertain whether this letter was ever part of the so-called Archive Wall, the letter postdates the two major phases of inscribing wall by several decades (see Kokkinia 2016: 000).  The erasure of Decius and Herennius Etruscus’ names may indicate the inscription was made before any possible memory sanction kicked in. This would suggest that it was put up while the emperors were still alive or early in the reign of Trebonianus Gallus. [Is there anything in the materiality / archaeology / diplomatics that suggests something more specific / otherwise? Is the type of damnatio, i.e. only removing names, roughly datable?]
+
+
+Background / occasion of letter
+The letter was ostensibly sent in response to a letter of congratulations by Aphrodisias on the elevation of Decius’ son Herennius Etruscus to the role of Caesar (probably not just the imperial accession of Decius himself). This type of exchange is a standard act of diplomacy by cities (see, for example, 000, 000, 000). The occasion is used by cities to get freedoms and privileges reconfirmed and to offer a new emperor(s) an opportunity to show their generosity, a key imperial virtue. In the process, cities build up long lists of imperial favours that make it harder for every next emperor to resist or undo. Extant letters or petitions sent by cities to emperors show that these tended to be carefully crafted documents with a curated selection of previous grants to make the palace’s job easy, or at least to encourage them to sign off on things swiftly. A striking element in this specific letter is the assurance to the Aphrodisians that they have carried out the right prayers and sacrifices for the emperors/empire. This must have featured in the letter sent to Decius. Given that this is the first time such a concern comes up in our corpus, it is attractive to connect this to Decius’ attempts to enforce sacrifice for the benefit of empire and emperor across the Roman world. Perhaps the Aphrodisians knew about Decius’ interest and emphasized it in their letter, or perhaps Decius’ chancellery decided to highlight this element in their response. [Add something on free cities / status after 212?]
+
+
+Display context and significance of findspot
+The marble block carrying this letter was found in the south/western section of the city walls of Aphrodisias. These walls were constructed in the 350s-360s, largely by reusing materials found nearby (tombstones) but also elsewhere in the city (https://aphrodisias-excavations.com/citywalls/). The letter is preserved on a marble block that is part of a small cluster of similar marble blocks in this section of the wall. The blocks appear to be of the same type as those used in the theatre, which may therefore have been its original location. This would have been very well at place there given that the theatre is the location of the so-called Archive Wall. Scholars have so far been reluctant to mention this letter in discussions of the Archive Wall—probably partly because of the complexities of mapping its textual layout, partly because this letter dates several decades after the two major epigraphical moments—but it is imaginable that this letter was added as supplement to the wall at a later stage. On the Archive Wall in general, see Kokkinia 2016, who proposes to date the two epigraphic phases to c. 224 and c. 243 CE. [this needs more research, especially of the stone and the spatiality of the wall; also this would be the place to insert or link to a more general description/discussion of the Archive Wall: a piece of information we can reuse in every entry that brings it up, or perhaps as a sort of Berger link; Kokkinia 2016 is a good starting point, but it will have to be written once we have studied all the Aphrodisian texts and their layouts / materiality in more details]
+
+
+Textual Diplomatics
+[to be added after autopsy; this also needs to be done in comparison with other letters from the Archive Wall, to trace conventions and developments; it might give a hint about a ballpark date as well; Kokkinia has a fairly detailed description of the Wall’s lay-out, but for this section the other letters need to be studied in detail first]
+
+</p>
+</div>
+<div type="bibliography">
+<p> this is the bibliography section
+</p>
+</div>
+</body>
+</text>
+</TEI>
+
