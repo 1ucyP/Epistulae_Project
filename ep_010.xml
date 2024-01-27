@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Letter of Septimius Severus and Caracalla to Ovinius Tertullus</title>
+</titleStmt>
+<publicationStmt>  
+<authority>Classical Journal</authority>
+<idno>CJ 8.50(51),1</idno>
+<idno>D. 38,17,1,3</idno>
+<idno>D. 49,15,9</idno>
+<idno>D. 49,15,25</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+    <repository>Epistulae</repository>
+   <idno type="URI">010</idno>
+</msIdentifier>
+<msContents>
+   <summary>Letter transmitted in the CJ and cited two times by Ulpian and once by Marcian. Addressed to the governor of Lower Moesia named Ovinius Tertullus; concerns the status of a child conceived and born in captivity. The child cannot have the ius postliminii in its own right. If both parents return to Roman territory, the child enters the potestas of the father and follows his civic status. If the father dies in captivity and the child returns with its mother, the child is regarded as an illegitimate child and therefore follows the status of its mother. </summary>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support>
+<material>n/a</material>
+<objectType>epistulae</objectType>
+<dimensions unit="cm">
+   <height scope="range">n/a </height>
+   <width scope="range">n/a </width>
+</dimensions>
+</support>
+</supportDesc>
+<layoutDesc>
+<layout>
+   <ab type="lines"> n/a</ab>
+   <ab type="recto-verso">n/a</ab> 
+</layout>
+</layoutDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origPlace type="country">n/a</origPlace>
+   <origPlace type="settlement"></origPlace>
+   <origPlace type="house"></origPlace>
+<origDate type="original" evidence="prosopography">198-202</origDate>
+</origin>
+<provenance type="found">n/a</provenance>
+<provenance type="observed">n/a</provenance>
+</history>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+   <profileDesc>
+<langUsage> <!-- all languages used in this file -->
+<language ident="en">English</language>
+<language ident="la">latin</language>
+</langUsage>
+<textClass>
+   <keywords>
+      <term>letter</term>
+       <term>governor</term>
+       <term>captives</term>
+       <term>status</term>
+       <term>children</term>
+       <term>ius postliminii</term>
+       <term>patria potestas</term>
+       <term>law of succession</term>
+   </keywords>
+</textClass>
+</profileDesc>
+   <revisionDesc> <!-- this is a record of all edits made to the file -->
+      <change who="ED" when="2023-11-22">commentary created</change>
+      <change who="LSP" when="2024-01-27">File created</change>
+   </revisionDesc>
+</teiHeader>
+<facsimile>
+<graphic url="https://droitromain.univ-grenoble-alpes.fr/Corpus/CJ8.htm#50"/>
+<graphic url="https://droitromain.univ-grenoble-alpes.fr/Corpus/d-38.htm#17"></graphic>
+<graphic url="https://droitromain.univ-grenoble-alpes.fr/Corpus/d-49.htm#15"></graphic>
+</facsimile>
+<text>
+<body>
+<div xml:lang="la" type="edition" xml:space="preserve" resp="ED"> <!-- remember to change language btwn grc/la -->
+<ab>
+<rs type="sender"><rs type="Title">Imperatores</rs> <persName type="Emperor">Severus et Antoninus AA.</persName>.</rs> <rs type="adressee"><persName>Ovinio</persName></rs>
+Ex duobus <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n51/mode/2up">captivis</rs> Sarmatia nata patris <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n283/mode/2up">originem</rs> ita secuta videtur, si ambo parentes in civitatem nostram redissent. Quamquam enim iure proprio <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n309/mode/2up">postliminium</rs> habere non possit quae capta non est, tamen parentum restitutio reddet <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n291/mode/2up">patri filiam.</rs> 1. Qui cum ab hostibus interemptus sit, matris dumtaxat condicionem, quae secum filiam duxit, videtur necessario secuta. Nam <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n141/mode/2up">fictio legis Corneliae</rs>, quae <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n217/mode/2up">legitimos apud hostes defuncto constituit heredes</rs>, ad eam quae illic suscepta est non pertinet, cum eo tempore quo captus est diem suum pater obisse existimetur. 
+<rs type="AdminProcess">PP. </rs>sine die et consule.
+</ab>
+</div>
+<div type="translation" resp="ED">
+   <ab> The emperors Severus and Antoninus to Ovinius. Pr. A girl born from two captives in Sarmatia is held to follow the status of the father, when both parents have returned to our territory. Even though she cannot have postliminium in her own right, because she was not captured, nevertheless the restitution of her parents restores the daughter to her father. 1. If he was killed by the enemy, then she is held necessarily to follow only the status of the mother, who brought the daughter with her. Because the fiction of the lex Cornelia, which establishes the legitimate heirs for someone, who has died in the enemy’s hands, does not apply to her, who has been born there, since her father is regarded to have died at the moment he was captured. Without date and year.
+</ab>
+</div>
+<div type="textpart" subtype="mention" resp="ED">
+<ab>
+    Ulpianus libro 12 ad Sabinum. 
+Interdum et in servitute quaesito erit concedenda hereditas legitima, veluti si post moram fideicommissariae libertati matris suae factam natus sit. Certe si post manumissionem matris fuerit natus, licet in servitute conceptus, ad legitimam eius hereditatem admittetur. Sed et si apud hostes conceptus a captiva procreatus cum ea rediit, secundum rescriptum imperatoris nostri et divi patris eius ad Ovinium Tertullum poterit ex hoc senatus consulto admitti quasi vulgo quaesitus.
+
+</ab>
+</div>
+<div type="translation" resp="ED">
+<ab>Ulpian in the 12th book on Sabinus. 
+Sometimes intestate succession has to be awarded to a child born in slavery as well, for example if he is born after there has been a delay in the fideicommissary manumission of his mother.  Certainly, if he was born after the manumission of his mother, he will be admitted to the intestate succession, even if he has been conceived in slavery. But also, when a child, conceived in captivity and born out of a woman taken prisoner, has returned with her, he can according to a rescript of our emperor and his deified father to Ovinius Tertullus on the basis of this senatus consultum be admitted as though he were an illegitimate child.</ab>
+</div>
+<div type="textpart" resp="ED">
+<ab>Ulpianus libro quatro ad legem Iuliam et Papiam. 
+Apud hostes susceptus filius si postliminio redierit, filii iura habet: habere enim eum postliminium nulla dubitatio est post rescriptum imperatoris Antonini et divi patris eius ad Ovinium Tertullum praesidem provinciae Mysiae inferioris.
+</ab>
+</div>
+<div type="translation" resp="ED">
+<ab>Ulpian in the fourth book on the lex Iulia et Papia. 
+If a son who was born during captivity has returned with postliminium, he has the rights of a son. For there can be no doubt that he has postliminium after the rescript of the emperor Antoninus and his deified father to Ovinius Tertullus, the governor of the province of Lower Moesia</ab>
+</div>
+<div type="textpart" resp="ED">
+<ab>Marcianus libro 14 institutionum. 
+Divi Severus et Antoninus rescripserunt, si uxor cum marito ab hostibus capta fuerit et ibidem ex marito enixa sit: si reversi fuerint, iustos esse et parentes et liberos et filium in potestate patris, quemadmodum iure postliminii reversus sit: quod si cum matre sola revertatur, quasi sine marito natus, spurius habebitur
+</ab>
+</div>
+<div type="translation">
+<ab>Marcian in the 14th book of the Institutes. 
+The deified Severus and Antoninus have written in a rescript that, if a wife was captured by the enemy together with her husband and she has given birth there to a child fathered by her husband, if they have returned, they are lawfully parents and children and the son will be in the potestas of the father, as though he had returned with the ius postliminii: but if he has returned with his mother alone, that he will then be regarded as an illegitimate child, as if born without a husband</ab>
+</div>
+ <div type="commentary">
+<p> This is the section for any commentary
+</p>
+</div>
+<div type="bibliography">
+<p> this is the bibliography section
+</p>
+</div>
+</body>
+</text>
+</TEI>
+

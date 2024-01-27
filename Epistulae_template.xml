@@ -68,9 +68,12 @@
 </profileDesc>
    <revisionDesc> <!-- this is a record of all edits made to the file -->
       <change who="" when="">commentary created</change>
-      <change who="LSP" when="2022-10-10">File created</change>
+      <change who="LSP" when="2024-01-00">File created</change>
    </revisionDesc>
 </teiHeader>
+<facsimile>
+<graphic url=""/> <!-- for any links to online corpora -->
+</facsimile>
 <text>
 <body>
 <div xml:lang="grc" type="edition" xml:space="preserve"> <!-- remember to change language btwn grc/la -->
