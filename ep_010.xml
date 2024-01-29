@@ -101,7 +101,7 @@ Ex duobus <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAA
 <div type="textpart" subtype="mention" resp="ED">
 <ab>
     Ulpianus libro 12 ad Sabinum. 
-Interdum et in servitute quaesito erit concedenda hereditas legitima, veluti si post moram fideicommissariae libertati matris suae factam natus sit. Certe si post manumissionem matris fuerit natus, licet in servitute conceptus, ad legitimam eius hereditatem admittetur. Sed et si apud hostes conceptus a captiva procreatus cum ea rediit, secundum rescriptum imperatoris nostri et divi patris eius ad Ovinium Tertullum poterit ex hoc senatus consulto admitti quasi vulgo quaesitus.
+Interdum et in servitute quaesito erit concedenda <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n157/mode/2up">hereditas legitima</rs>, veluti si post moram <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n141/mode/2up">fideicommissariae libertati</rs> matris suae factam natus sit. Certe si post <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n245/mode/2up">manumissionem</rs> matris fuerit natus, licet in servitute conceptus, ad legitimam eius hereditatem admittetur. Sed et si apud hostes conceptus a captiva procreatus cum ea rediit, secundum <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n351/mode/2up">rescriptum</rs> <rs type="Sender"><rs type="Title">imperatoris nostri et divi patris eius</rs></rs> ad <rs type="addresse"><persName>Ovinium Tertullum</persName></rs> poterit ex hoc <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n367/mode/2up">senatus consulto</rs> admitti quasi <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n441/mode/2up">vulgo</rs> quaesitus.
 
 </ab>
 </div>
@@ -109,16 +109,16 @@ Interdum et in servitute quaesito erit concedenda hereditas legitima, veluti si 
 <ab>Ulpian in the 12th book on Sabinus. 
 Sometimes intestate succession has to be awarded to a child born in slavery as well, for example if he is born after there has been a delay in the fideicommissary manumission of his mother.  Certainly, if he was born after the manumission of his mother, he will be admitted to the intestate succession, even if he has been conceived in slavery. But also, when a child, conceived in captivity and born out of a woman taken prisoner, has returned with her, he can according to a rescript of our emperor and his deified father to Ovinius Tertullus on the basis of this senatus consultum be admitted as though he were an illegitimate child.</ab>
 </div>
-<div type="textpart" resp="ED">
+<div type="textpart" subtype="mention" resp="ED">
 <ab>Ulpianus libro quatro ad legem Iuliam et Papiam. 
-Apud hostes susceptus filius si postliminio redierit, filii iura habet: habere enim eum postliminium nulla dubitatio est post rescriptum imperatoris Antonini et divi patris eius ad Ovinium Tertullum praesidem provinciae Mysiae inferioris.
+Apud hostes susceptus filius si postliminio redierit, filii iura habet: habere enim eum postliminium nulla dubitatio est post rescriptum <rs type="sender"><rs type="title">imperatoris</rs> <persName type="Emperor">Antonini et divi patris eius</persName></rs> ad <rs type="addresse"><persName>Ovinium Tertullum</persName></rs> praesidem provinciae Mysiae inferioris.
 </ab>
 </div>
 <div type="translation" resp="ED">
 <ab>Ulpian in the fourth book on the lex Iulia et Papia. 
 If a son who was born during captivity has returned with postliminium, he has the rights of a son. For there can be no doubt that he has postliminium after the rescript of the emperor Antoninus and his deified father to Ovinius Tertullus, the governor of the province of Lower Moesia</ab>
 </div>
-<div type="textpart" resp="ED">
+<div type="textpart" subtype="mention" resp="ED">
 <ab>Marcianus libro 14 institutionum. 
 Divi Severus et Antoninus rescripserunt, si uxor cum marito ab hostibus capta fuerit et ibidem ex marito enixa sit: si reversi fuerint, iustos esse et parentes et liberos et filium in potestate patris, quemadmodum iure postliminii reversus sit: quod si cum matre sola revertatur, quasi sine marito natus, spurius habebitur
 </ab>
