@@ -111,7 +111,7 @@ Sometimes intestate succession has to be awarded to a child born in slavery as w
 </div>
 <div type="textpart" subtype="mention" resp="ED">
 <ab>Ulpianus libro quatro ad legem Iuliam et Papiam. 
-Apud hostes susceptus filius si postliminio redierit, filii iura habet: habere enim eum postliminium nulla dubitatio est post rescriptum <rs type="sender"><rs type="title">imperatoris</rs> <persName type="Emperor">Antonini et divi patris eius</persName></rs> ad <rs type="addresse"><persName>Ovinium Tertullum</persName></rs> praesidem provinciae Mysiae inferioris.
+Apud hostes susceptus filius si <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n309/mode/2up">postliminio</rs> redierit, <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n143/mode/2up">filii iura</rs> habet: habere enim eum postliminium <rs type="Expression">nulla dubitatio est</rs> post <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n351/mode/2up">rescriptum</rs> <rs type="sender"><rs type="title">imperatoris</rs> <persName type="Emperor">Antonini et divi patris eius</persName></rs> ad <rs type="addresse"><persName>Ovinium Tertullum</persName></rs> <rs type="title">praesidem provinciae</rs> <placeName>Mysiae inferioris.</placeName>
 </ab>
 </div>
 <div type="translation" resp="ED">
@@ -120,7 +120,7 @@ If a son who was born during captivity has returned with postliminium, he has th
 </div>
 <div type="textpart" subtype="mention" resp="ED">
 <ab>Marcianus libro 14 institutionum. 
-Divi Severus et Antoninus rescripserunt, si uxor cum marito ab hostibus capta fuerit et ibidem ex marito enixa sit: si reversi fuerint, iustos esse et parentes et liberos et filium in potestate patris, quemadmodum iure postliminii reversus sit: quod si cum matre sola revertatur, quasi sine marito natus, spurius habebitur
+<rs type="Sender"><persName type="Emperor">Divi Severus et Antoninus</persName></rs> <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n351/mode/2up">rescripserunt</rs>, si uxor cum marito ab hostibus capta fuerit et ibidem ex marito enixa sit: si reversi fuerint, iustos esse et parentes et liberos et filium <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n291/mode/2up">in potestate patris</rs>, quemadmodum <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n309/mode/2up">iure postliminii</rs> reversus sit: quod si cum matre sola revertatur, quasi sine marito natus, <rs type="LegalJargon" ref="https://archive.org/details/bub_gb_oR0LAAAAIAAJ/page/n385/mode/2up">spurius</rs> habebitur
 </ab>
 </div>
 <div type="translation">
